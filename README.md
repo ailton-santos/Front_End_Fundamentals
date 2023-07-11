@@ -29,6 +29,4 @@ Design website
 Develop website
 Perform usability tests on the website
 Host website
-
-Translated with www.DeepL.com/Translator (free version)
  
