@@ -6,8 +6,8 @@ The Professional Qualification course of Web designer - Front-End aims to develo
 
 <b>COURSE PROGRAM<b>
 
-Identify the types of hardware
-Identify the types of software
+- Identify the types of hardware
+- Identify the types of software
 Manipulate the operating system considering:
 -Creating folders
 -Copying and pasting folders and files
