@@ -4,7 +4,7 @@
 
 The Professional Qualification course of Web designer - Front-End aims to develop skills related to the elaboration of pages for Web, using resources such as languages: HTML, CSS, JavaScript as well as tools for making graphic interfaces for personalized websites.
 
-COURSE PROGRAM
+<b>COURSE PROGRAM<b>
 
 Identify the types of hardware
 Identify the types of software
