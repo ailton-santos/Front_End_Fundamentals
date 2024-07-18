@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta name"viewport"; meta charget:"UTF-8"; content="width=device-width", inicial-scale="1.0">
+    <title>pagina com video</title>
+  </head>
+  <body>
+    
+  <center>
+    <h1 class="color">VÍDEO DE EXEMPLO</h1><iframe class="body"  width="560" height="315"src="https://www.youtube.com/embed/NPLrDD2TrGs" frameborder:"0" allow="accelerometer;autoplay;clipboard-write;gyroscope;picture-in-picture" allowfullscreen></iframe></center>
+  </body>
+</html>
+CSS
+.color{
+  text-shadow: 0.2em 0.1em 0.2em black;
+}
+.body{
+ border-radius: 8px 8px 8px 8px;
+}
