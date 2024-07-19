@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>📖 Dicionário médico</title>
+</head>
+<body>
+    <h1 id="título" style="font-family: impact, fantasy;">📖 Dicionário medico</h1>
+    
+    <table>
+    
+
+        <tr>
+        <form method="post" action="">
+            <label for="a"></label>
+            <input type="button" name="a" value="A" class="bo">
+        </form></div></tr>
+
+        <tr>
+        <form method="post" action="file:///C:/Users/senai/front-end/dicion%C3%A1rio%20m%C3%A9dico/b/b.html">
+            <label for="a"></label>
+            <input type="submit" name="a" value="B" class="bo">
+        </form></tr>
+
+        <tr>
+        <form method="post" action="file:///C:/Users/senai/front-end/dicion%C3%A1rio%20m%C3%A9dico/c/c.html">
+                <label for="a"></label>
+                <input type="submit" name="a" value="C" class="bo">
+        </form></tr>
+            
+        <tr>
+        <form method="post" action="">
+                <label for="a"></label>
+                <input type="submit" name="a" value="D" class="bo">
+        </form></tr>   
+
+        <tr>
+        <form method="post" action="">
+                    <label for="a"></label>
+                    <input type="submit" name="a" value="E" class="bo">
+        </form></tr>   
+
+        <tr>
+        <form method="post" action="">
+                        <label for="a"></label>
+                        <input type="submit" name="a" value="F" class="bo">
+        </form></tr>  
+        
+        <tr>
+        <form method="post" action="">
+                    <label for="a"></label>
+                    <input type="submit" name="a" value="G" class="bo">
+        </form></tr>   
+
+        <tr>
+        <form method="post" action="">
+                    <label for="a"></label>
+                    <input type="submit" name="a" value="H" class="bo">
+        </form></tr>   
+            
+        <tr>
+        <form method="post" action="">
+                        <label for="a"></label>
+                        <input type="submit" name="a" value="I" class="bo">
+        </form></tr> 
+        
+        <tr>
+        <form method="post" action="">
+                        <label for="a"></label>
+                        <input type="submit" name="a" value="J" class="bo">
+        </form></tr>   
+    
+        <tr>
+        <form method="post" action="">
+                        <label for="a"></label>
+                        <input type="submit" name="a" value="K" class="bo">
+        </form></tr>   
+                
+        <tr>
+        <form method="post" action="">
+                            <label for="a"></label>
+                            <input type="submit" name="a" value="L" class="bo">
+        </form></tr>       
+
+        <tr>
+        <form method="post" action="">
+                            <label for="a"></label>
+                            <input type="submit" name="a" value="M" class="bo">
+        </form></tr>   
+        
+        <tr>
+        <form method="post" action="">
+                            <label for="a"></label>
+                            <input type="submit" name="a" value="N" class="bo">
+        </form></tr>   
+                    
+        <tr>
+        <form method="post" action="">
+                                <label for="a"></label>
+                                <input type="submit" name="a" value="O" class="bo">
+        </form></tr>    
+
+        <tr>
+        <form method="post" action="">
+                        <label for="a"></label>
+                        <input type="submit" name="a" value="P" class="bo">
+        </form></tr>   
+    
+        <tr>
+        <form method="post" action="">
+                        <label for="a"></label>
+                        <input type="submit" name="a" value="Q" class="bo">
+        </form></tr>   
+                
+        <tr>
+        <form method="post" action="">
+                            <label for="a"></label>
+                            <input type="submit" name="a" value="R" class="bo">
+        </form></tr>       
+        
+        <tr>
+        <form method="post" action="">
+                            <label for="a"></label>
+                            <input type="submit" name="a" value="S" class="bo">
+        </form></tr>   
+        
+        <tr>
+        <form method="post" action="">
+                            <label for="a"></label>
+                            <input type="submit" name="a" value="T" class="bo">
+        </form></tr>   
+                    
+        <tr>
+        <form method="post" action="">
+                                <label for="a"></label>
+                                <input type="submit" name="a" value="U" class="bo">
+        </form></tr>           
+
+        <tr>
+        <form method="post" action="">
+                                <label for="a"></label>
+                                <input type="submit" name="a" value="V" class="bo">
+        </form></tr>   
+            
+        <tr>
+        <form method="post" action="">
+                                <label for="a"></label>
+                                <input type="submit" name="a" value="W" class="bo">
+        </form></tr>   
+                        
+        <tr>
+        <form method="post" action="">
+                                    <label for="a"></label>
+                                    <input type="submit" name="a" value="X" class="bo">
+        </form></tr> 
+                    
+        <tr>
+        <form method="post" action="">
+                                    <label for="a"></label>
+                                    <input type="submit" name="a" value="Y" class="bo">
+        </form></tr>   
+                            
+        <tr>
+        <form method="post" action="">
+                                        <label for="a"></label>
+                                        <input type="submit" name="a" value="Z" class="bo">
+        </form></tr>   
+        
+        </div>
+    </table>
+
+    <p id="corpo">
+        <a class="link" href="https://www.xn--dicionriomdico-0gb6k.com/%C3%85.html">Å</a> Unidade angström; unidade de comprimento de onda, de radiações eletromagnéticas,<br>
+        <a class="link" href="https://www.xn--dicionriomdico-0gb6k.com/a,_an.html">a, an</a>	 	Pref. gr.: ausência ou negação (afasia, analgesia); - corruptela do <br>
+        <a class="link" href="https://www.xn--dicionriomdico-0gb6k.com/%C3%A3a.html">ãa</a>	 	Abreviatura latina que significa "de cada", usada para designar uma ... <br>
+        <a class="link" href="https://www.xn--dicionriomdico-0gb6k.com/AA.html">AA</a>	 	Sigla da instituição internacional dos Alcoólatras Anônimos. ... <br>
+        <a class="link" href="https://www.xn--dicionriomdico-0gb6k.com/ab.html">ab</a>	 	Pref. lat.: negação ou separação (ablepsia, abaxial), aumento ou intensidade ... <br>
+        <a class="link" href="https://www.xn--dicionriomdico-0gb6k.com/abacteriano.html">abacteriano</a>	 	Isento de bactérias; não-bacteriano. ... <br>
+        <a class="link" href="https://www.xn--dicionriomdico-0gb6k.com/abactus_venter.html">abactus venter</a>	 	Parto prematuro, artificial; aborto induzido. ... <br>
+        <a class="link" href="https://www.xn--dicionriomdico-0gb6k.com/abafa%C3%A7%C3%A3o.html">abafação</a>	 	Dispnéia; falta de ar; período pré-menstrual (pop.). ... <br>
+        <a class="link" href="https://www.xn--dicionriomdico-0gb6k.com/abafamento.html">abafamento</a>	 	Diminuição dos ruídos orgânicos, principalmente das bulhas cardíacas. ... <br>
+        <a class="link" href="https://www.xn--dicionriomdico-0gb6k.com/abaixador_de_l%C3%ADngua.html">abaixador de língua</a>	 	Instrumento para abaixar a língua, no exame da garganta; abaixa-língua; ... <br>
+        <a class="link" href="https://www.xn--dicionriomdico-0gb6k.com/abalado.html">abalado</a>	 	Que sofreu abalo; deprimido. ... <br>
+        <a class="link" href="https://www.xn--dicionriomdico-0gb6k.com/abaliena%C3%A7%C3%A3o.html">abalienação</a>	 	Distúrbio mental. ... <br>
+        <a class="link" href="https://www.xn--dicionriomdico-0gb6k.com/abalo.html">abalo</a>	 	Reação; choque ou alteração produzida por medicamento ou estado patológico. ... <br>
+        <a class="link" href="https://www.xn--dicionriomdico-0gb6k.com/abaloado.html">abaloado</a>	 	Que apresenta forma de balão; bojado. ... <br>
+        <a class="link" href="https://www.xn--dicionriomdico-0gb6k.com/abapical.html">abapical</a>	 	Situado na base ou na extremidade oposta do ápice. ... <br>
+        <a class="link" href="https://www.xn--dicionriomdico-0gb6k.com/abarognose.html">abarognose</a>	 	Perda da sensibilidade ao peso. ... <br>
+        <a class="link" href="https://www.xn--dicionriomdico-0gb6k.com/abarticula%C3%A7%C3%A3o.html">abarticulação</a>	 	Diartrose; deslocação. ... <br>
+        <a class="link" href="https://www.xn--dicionriomdico-0gb6k.com/abarticular.html">abarticular</a>	 	Relativo à abarticulação; que está fora da articulação. ... <br>
+        <a class="link" href="https://www.xn--dicionriomdico-0gb6k.com/abartrose.html">abartrose</a>Diartrose. ... <br>
+        <a class="link" href="https://www.xn--dicionriomdico-0gb6k.com/abasia.html">abasia</a>Perda parcial ou total da marcha, sem distúrbio da força ... <br>
+        <a class="link" href="https://www.xn--dicionriomdico-0gb6k.com/abastardar.html">abastardar</a>Inferiorizar; degradar. ... <br>
+        <a class="link" href="https://www.xn--dicionriomdico-0gb6k.com/abater.html">abater</a>	 	Matar animais; abaixar; deprimir. ... <br>
+        <a class="link" href="https://www.xn--dicionriomdico-0gb6k.com/abatimento.html">abatimento</a>	 	Diminuição acentuada de sensações ou atos dependentes da ação nervosa: ... <br>
+        <a class="link" href="https://www.xn--dicionriomdico-0gb6k.com/abatista.html">abatista</a>	 	Trépano de ponta cônica, e que não perfura o cérebro. ... <br>
+        <a class="link" href="https://www.xn--dicionriomdico-0gb6k.com/abaxial.html">abaxial</a>	 	Fora do eixo do corpo, ou da linha considerada como ... <br>
+        
+        </p>
+       
+</body>
+</html>
