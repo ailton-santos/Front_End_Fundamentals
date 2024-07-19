@@ -1,0 +1,56 @@
+body { 
+
+    background-color:rgb(25, 2, 58);
+  }
+  
+  .title {
+    border:5px solid rgb(226, 4, 226);
+    color:rgb(235, 198, 235);
+    text-align:center;
+    font-family:Arial;
+    font-size: 40px;
+    
+  }
+
+
+  
+  
+  .title2 {
+    margin-left: 550px;
+    font-family:arial;
+    font-size:15px;
+    color:rgb(193, 41, 158);
+    margin: left 15px;px;
+    margin-top:20px;
+  }
+  
+  .title3 {
+    margin-left: 620px;
+    font-family:Verdana;
+    font-size:15px;
+    color:rgb(221, 32, 196);
+    border:px solid;
+    border-radius: 25% 10%;
+  }
+
+ .title4 { 
+  margin-left: 620px;
+  font-family:verdana;
+  font-size:15px;
+  color:rgb(240, 6, 205);
+  border:px solid;
+  border-radius: 25% 10%;
+}
+
+  
+  iframe {
+    margin-left: 400px;
+  }
+
+ .estenderaudio {
+  margin-left: 110px;
+ }
+
+ .estendendoimg {
+  margin-left: 1px;
+ }
