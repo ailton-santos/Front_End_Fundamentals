@@ -1,0 +1,23 @@
+#título{
+    margin-left: 100px;
+    position: relative;
+}
+
+.bo{
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    position: relative ;
+    margin-left: 10px;
+}
+
+#corpo{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#link{
+    margin: 10px;
+}
+
