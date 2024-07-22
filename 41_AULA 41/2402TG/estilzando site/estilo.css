@@ -117,7 +117,7 @@ body{
     background-color: rgb(112, 1, 112);
     padding: 0.5px;
     color: white;
-    width: 1583px;
+    width: 1582px;
 }
 #n10{
     text-align: center;
@@ -136,4 +136,20 @@ td{
 .agenda{
     text-align: center;
     margin-left: 590px;
+}
+#anx{
+    background-color: rgb(112, 1, 112);
+    padding: 0.5px;
+    color: white;
+    width: 1582px;
+}
+
+#raio{
+    text-align: center;
+    margin-left: 410px;
+}
+
+#fig{
+    margin-left: 250px;
+    text-align: center;
 }
