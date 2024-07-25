@@ -1,0 +1,164 @@
+<!-- saved from url=(0058)file:///C:/Users/senai/Downloads/HTML/nada/nadadenovo.HTML -->
+<html leng="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><doctype html="">
+
+  <meta name="viewport"; content="width=device-width"; inicial-scale=1.0">
+<title>Portal E.E Parque Piratininga II</title>
+<link rel="stylesheet" href="styles.css">
+  </head>
+  <body style="border:6px solid peachpuff">
+<div class="white-bar">
+   <div class="search-container">
+                               <p id="logo"class="animada"><span>GUIA TRABALHISTA</span></p>
+        <form action="/search" method="GET">
+            <input type="text" placeholder="Buscar..." name="search">
+            <button type="submit">Pesquisar</button>
+<button type="submit" id="botao">Fale conosco</button>
+        </form>
+    </div> 
+</div>
+                     <h5 id="data">Publicação
+
+D.O.U.
+
+Portaria MTb n.º 3.214, de 08 de junho de 1978
+
+06/07/78</h5>
+                                  <h4 id="titulo">NR 10 - SEGURANÇA EM INSTALAÇÕES E SERVIÇOS EM ELETRICIDADE
+
+
+
+<br>(Texto dado pela Portaria MTE n.º 598, de 07 de dezembro de 2004)</h4>
+                                         <table class="table">
+  <tr>
+    <th class="bordadatabela">Alterações/Atualizações</th><br><th>D.O.U.</th>
+  </tr>
+  <tr><td class="bordadatabela">SSMT n.º 12, de 06 de junho de 1983
+<br>
+Portaria MTE n.º 598, de 07 de dezembro de 2004
+<br>
+Portaria MTPS n.º 508, de 29 de abril de 2016
+<br>
+
+Portaria SEPRT n.º 915, de 30 de julho de 2019
+</td><td>
+14/06/83<br>
+08/09/04<br>
+02/05/16<br>
+31/07/19</td></tr>
+</table>
+    <details class="leis">
+        <summary><h5>10.1 - OBJETIVO E CAMPO DE APLICAÇÃO</h5></summary>
+        <p><b>10.1.1</b> Esta Norma Regulamentadora - NR estabelece os requisitos e condições mínimas objetivando a implementação de medidas de controle e sistemas preventivos, de forma a garantir a segurança e a saúde dos trabalhadores que, direta ou indiretamente, interajam em instalações elétricas e serviços com eletricidade.<br>
+<b>10.1.2</b> Esta NR se aplica às fases de geração, transmissão, distribuição e consumo, incluindo as etapas de projeto, construção, montagem, operação, manutenção das instalações elétricas e quaisquer trabalhos realizados nas suas proximidades, observando-se as normas técnicas oficiais estabelecidas pelos órgãos competentes e, na ausência ou omissão destas, as normas internacionais cabíveis.</p>
+                               </details>
+    <details class="leis">
+        <summary><h5>10.2 - MEDIDAS DE CONTROLE</h5></summary>
+        <p><b>10.2.1</b> Em todas as intervenções em instalações elétricas devem ser adotadas medidas preventivas de controle do risco elétrico e de outros riscos adicionais, mediante técnicas de análise de risco, de forma a garantir a segurança e a saúde no trabalho.
+
+
+
+10.2.2 As medidas de controle adotadas devem integrar-se às demais iniciativas da empresa, no âmbito da preservação da segurança, da saúde e do meio ambiente do trabalho.
+
+
+
+10.2.3 As empresas estão obrigadas a manter esquemas unifilares atualizados das instalações elétricas dos seus estabelecimentos com as especificações do sistema de aterramento e demais equipamentos e dispositivos de proteção.</p>
+                               </details>
+<table class="redessociais">
+</!doctype></body></html>
+
+CSS
+.textbody{
+  margin-left:13px;
+   text-align: justify;
+            width: 95%;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.white-bar {
+    display: flex;
+    justify-content:right;
+  background-color:rgb(138, 47, 47) ;
+    padding: 30px 3px;
+}
+
+.search-container {
+    display: flex;
+}
+.search-container form {
+    display: flex;
+  margin-top:15px;
+  margin-bottom:15px;
+  margin-right:10px;
+ 
+  }
+
+.search-container input[type="text"] {
+    padding: 10px;
+  width:700px;
+    font-size: 13px;
+  margin-right: 3px;
+    border: 1px solid #ccc;
+    border-radius: 8px 8px 8px 8px;
+    outline: none; 
+
+}
+
+.search-container button {
+    padding: 10px;
+    font-size: 13px;
+    border-left: none;
+    background-color: #4CAF50;
+    color: white;
+border-radius: 8px 8px 8px 8px;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #45a049;
+}
+.arredondar{
+  border-radius: 8px 8px 8px 8px;
+}
+#logo{
+  margin-right:80px;
+  color:white;
+  font-size:25px;
+  text-shadow:2px 2px white;
+}
+       @keyframes mudarCor {
+            0% { color: black; }
+            100% { color: lightgray; }
+        }
+
+        .animada {
+            font-size: 2em;
+            animation: mudarCor 2s 
+              infinite;
+        }
+#data{
+  text-align:right;
+  margin-right:10px;
+}
+#botao{
+  margin-left:10px;
+}
+#titulo{
+text-align:center;
+}
+.table{
+  border:1px solid;
+ border-radius:1px 1px 1px 1px;
+  margin-left: auto;
+  margin-right:7px;
+}
+.bordadatabela{
+  border-right:1px solid;
+}
+.leis{
+  margin-left:12px;
+  font-size:20px;
+}
