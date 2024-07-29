@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Dosis, Arial, Tahoma;
+  text-decoration: none;
+}
+
+/* Container */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* NavBar */
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  background: url(../img/bg.jpg);
+  height: 80px;
+  border-top: solid 7px #a11c5c;
+}
+
+.nav ul {
+  display: flex;
+  column-gap: 40px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.nav ul li {
+  list-style: none;
+  text-transform: uppercase;
+  margin-left: 20px;
+  margin: 0;
+}
+
+.nav ul .li:hover {
+  border-bottom: 3px solid #a11c5c;
+  transition: border-bottom 0.2s ease;
+}
+
+.nav ul .right {
+  margin-left: auto;
+  margin-right: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.nav ul .right img {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.nav ul .right li {
+  padding: 0;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #666;
+}
+
+/* Title */
+
+.title h1 {
+  text-align: center;
+  font-size: 22px;
+  margin-top: 50px;
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+/* Standards para index.html */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  column-gap: 20px;
+}
+
+.content .standards {
+  width: 700px;
+  max-width: 100%;
+}
+
+.content .standards {
+  padding: 20px;
+}
+
+.standards .accordion {
+  width: 100%;
+}
+
+.standards .accordion-input {
+  display: none;
+}
+
+.standards .accordion-label {
+  display: block;
+  background: #a11c5c;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  margin-top: -1px;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+}
+
+.standards .accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  background: #fafafa;
+  padding: 0 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.standards .accordion-content span {
+  text-decoration: line-through;
+}
+
+.standards .accordion-input:checked + .accordion-label + .accordion-content {
+  max-height: 2200px;
+  padding: 10px;
+  text-align: justify;
+}
+
+.standards .nested-accordion {
+  margin-left: 10px;
+}
+
+.standards .nested-accordion .accordion-label {
+  background: #a11c5c;
+  padding: 8px;
+  border: 1px solid #bbb;
+}
+
+/* Footer paginas index.html e glossario.html */
+
+.footer {
+  float: left;
+  background: url(../img/bg.jpg) center;
+  width: 1380px;
+}
+
+.footer .wrap {
+  background: url(../img/logo_rodape.png) no-repeat 0 25px;
+  margin: 0 auto;
+  padding: 25px 0 0 140px;  
+  width: 840px;
+  height: 105px;
+}
+
+.footer .menu {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.footer .menu a {
+  text-decoration: none;
+  color: #000;
+}
+
+.footer .menu p {
+  margin: 0 0.75pt;
+  text-align: center;
+}
+
+.footer .anexos {
+  width: 200px;
+}
+
+.footer .anexos h2 {
+  text-align: center;
+  font-size: 18px;
+}
+
+.footer .anexos a {
+  padding: 30px;
+}
+
+/* Glossary pagina glossario.index */
+
+.content-glossary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glossary .column {
+  max-width: 45%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.glossary {
+  margin-top: 30px;
+  width: 60%;
+}
+
+.glossary .accordion {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.glossary .accordion-input {
+  display: none;
+}
+
+.glossary .accordion-label {
+  display: block;
+  background: #fdf3e6;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: -1px;
+  color: #907373;
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.glossary .accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  background: #fafafa;
+  padding: 0 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+.glossary .accordion-input:checked + .accordion-label + .accordion-content {
+  max-height: 2200px;
+  padding: 10px;
+}
