@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Js Intro - form 1</title>
+</head>
+<body>
+  <div class="container">
+    <h2>Olá! Qual é o seu nome?</h2>
+    <form id="meuForms">
+      <input type="text" id="nameInput" placeholder="Seu nome">
+      <button type="submit">Enviar</button>
+    </form>
+    <div id="greetings"></div>
+    <script src="script.js"></script>
+  </div>
+
+<style>
+body {
+  font-family: Arial, Verdana;
+  background-color: 	#00FF00;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+  
+}
+
+#grreting {
+  margin-top: 20px;
+  font-size: 18px;
+}
+</style>
+
+<script>
+document.getElementById('meuForms').addEventListener('submit', function(event) {
+  event.preventDefault(); // Evitar envio do formulário
+  
+  var name = document.getElementById('nameInput').value; // Entrada
+  var greeting = document.getElementById('greetings'); // Saída
+  
+  if (name) {
+    greeting.textContent = 'Olá, ' + name + '! Bem-vindo';
+  } else {
+    greeting.textContent = 'Por favor, insira o seu nome.';
+  }
+});
+</script>
+
+</body>
+</html>
