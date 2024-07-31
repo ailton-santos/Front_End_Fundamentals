@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    
+</head>
+<body>
+    <div class="container">
+    <h1 class="texto">Digite seu nome</h1>
+    <form id="fo">
+        <input class="txt" type="text" placeholder="seu nome" id="pesquisar">
+        <button class="bo" type="submit">enviar</button>
+    </form>
+    <div id="greeting"></div>
+    </div>
+    <script src="estilo.js"></script>
+
+    <div class="container">
+    <h2>formulário de contato</h2>
+    <form action="#submissiondata" method="post " id="contactform">
+        <label for="nameinput">Nome:</label>
+        <input type="text"  id="nameinput" name="name" required>
+
+        <label for="emailinput">email:</label>
+        <input type="email" id="emailinput" name="email" required>
+
+        <label for="ageinput">Idade:</label>
+        <input type="number" id="Ageinput" name="age" required>
+
+        <label for="senhainput">senha:</label>
+        <input type="password" id="senhainput" name="senha" required>
+
+        <label for="mensageinput">caixa de texto:</label>
+        <textarea id="mensageinput" name="mensage" rows="5" required></textarea>
+
+        <button type="submit">enviar</button>
+    </form>
+    </div>
+    <div id="submissiondata" style="display: none; background-color: black;">
+        <h3>Dados do envio:</h3>
+        <p><strong>Nome:</strong><span id="submittedname"></span></p>
+        <p><strong>Email:</strong><span id="submittedemail"></span></p>
+        <p><strong>Idade:</strong><span id="submittedidade"></span></p>
+        <p><strong>Senha:</strong><span id="submittedsenha"></span></p>
+        <p><strong>Mensagem:</strong><span id="submittedmensagem"></span></p>
+    </div>
+    <iframe class="tabela"></iframe>
+</body>
+</html>
+
+
