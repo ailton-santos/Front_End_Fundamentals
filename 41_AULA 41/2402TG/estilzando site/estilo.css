@@ -2,6 +2,7 @@ body{
     margin-left: 0;
     margin-top: 0;
     margin-right: 0;
+    margin-bottom: 0;
 }
 
 #linhaP{
@@ -117,7 +118,7 @@ body{
     background-color: rgb(112, 1, 112);
     padding: 0.5px;
     color: white;
-    width: 1583px;
+    width: 1582px;
 }
 #n10{
     text-align: center;
@@ -135,5 +136,149 @@ td{
 
 .agenda{
     text-align: center;
-    margin-left: 590px;
+    margin-left: 200px;
 }
+#anx1{
+    background-color: rgb(112, 1, 112);
+    padding: 0.5px;
+    color: white;
+    width: 1582px;
+}
+
+#anx2{
+    background-color: rgb(112, 1, 112);
+    padding: 0.5px;
+    color: white;
+    width: 1582px;
+}
+
+#anx3{
+    background-color: rgb(112, 1, 112);
+    padding: 0.5px;
+    color: white;
+    width: 1582px;
+}
+
+#raio{
+    text-align: center;
+    margin-left: 410px;
+}
+
+#fig{
+    margin-left: 250px;
+    text-align: center;
+}
+
+#Tabela{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wtz{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 164px;
+    margin-left: 1490px;
+}
+
+#video{
+    position: absolute;
+    top: 354px;
+    margin-left: 1023px;
+}
+
+#final{
+    background-color: rgb(187, 187, 187);
+    width: 1582px;
+    height: 440px;
+}
+
+#fina{
+    width: 1582px;
+    height: 3px;
+    background-color: black;
+}
+
+#linkF{
+    text-align: center;
+    width: 800px;
+    height: 100px;
+    position: absolute;
+    top: 10290px;
+    margin-left: 380px;
+}
+
+a:hover{
+    border-bottom: 1px solid;
+}
+ 
+#assinatura{
+    width: 281px;
+    height: 81px;
+    position: absolute;
+    top: 10450px;
+    margin-left: 880px;
+}
+
+#menuF{
+    margin-left: 430px;
+    position: absolute;
+    top: 10420px;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+  }
+  
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+    top: 280px;
+    margin-left: 60px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .show {display:block;}
+
+ #cadastre{
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 280px;
+    margin-left: 200px;
+  }
+
+

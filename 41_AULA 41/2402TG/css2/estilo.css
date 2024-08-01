@@ -1,0 +1,104 @@
+body{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background-color: crimson;
+   margin: 0px;
+}
+
+.texto{
+    text-shadow: 2px 20px 5px black;
+    text-align: center;
+    text-decoration-line: underline;
+    text-transform: uppercase   ;
+}
+
+.container{
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(146, 146, 146);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+ h1{
+    margin-top: 0;
+ }
+
+ .txt{
+    padding: 10px;
+    width: 95%;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: none;
+ }
+
+ .bo{
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    display: block;
+    width: 100%;
+    background-color: blue;
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+ }
+
+ .bo:hover{
+    background-color: rgb(1, 1, 182);
+ }
+
+ #greeting{
+   margin-top: 20px;
+   font-size: 18px;
+ }
+ 
+h2{
+   margin-top: 0;
+}
+
+label{
+   display: block;
+   margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea{
+   width: 93%;
+   margin-bottom: 10px;
+   border: 1px solid #ccc;
+   border-radius: 20px;
+   padding: 10px;
+   resize: none;
+}
+
+input[type="number"]{
+   width: 20%;
+   border-radius: 20px;
+   border: none;
+   padding: 10px;
+}
+
+button{
+   display: block;
+   padding: 10px;
+   width: 98%;
+   border-radius: 20px;
+   background-color: blue;
+   transition: 0.5s;
+   border: none;
+   color: white;
+   cursor: pointer;
+}
+
+button:hover{
+   background-color: rgb(1, 1, 182);
+}
+
+#submissiondata{
+   margin-top: 20px;
+}
+
+.tabela{
+   width: 100px;
+   height: 100px;
+   background-color: aqua;
+}
