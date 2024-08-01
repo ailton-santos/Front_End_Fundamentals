@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title> </title>
+</head>
+<body>
+  
+  <div id="resultado">
+</div>
+
+<body>
+
+<script>
+var idade = prompt("Por favor, insira a sua idade:");
+
+var resultadoDiv = document.getElementById("resultado");
+// Verifica se não é um numero
+if (!isNaN(idade)){
+  //Converte a entrada para um numero inteiro
+  idade = parseInt(idade);
+  if (idade >= 18){
+    resultadoDiv.innerText = "Você é maior de idade.";
+  }else {
+    resultadoDiv.innerText = "Você n é maior de idade.";
+  }
+} else {
+  resultadoDiv.innerText = "Erro.  digite um numero.";
+}
+</script>
+</html>
