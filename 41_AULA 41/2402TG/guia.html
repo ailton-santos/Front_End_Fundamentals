@@ -1,0 +1,765 @@
+ <body class="body">
+  <img src="data:image/png;base64,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" width="110" height="110">
+  <img src="https://static.vecteezy.com/system/resources/previews/014/030/892/non_2x/power-lineman-on-phone-png.png" width="110" height="110">
+  <div class="white-bar">
+   <div class="search-container">
+        <form action="/search" method="GET">
+            <input type="text" placeholder="Buscar..." name="search">
+            <button type="submit">Pesquisar</button>
+<button type="submit">Fale conosco</button>
+        </form>
+    </div> 
+
+  <div class="botao" ><a class="cursor" href="https://www.portaltributario.net.br/">Atendimento</div> <div class="botao" ><a class="cursor" "https://www.guiatrabalhista.com.br/">Mais artigos</div></div>
+
+  <center><iframe width="560" height="315" src="https://www.youtube.com/embed/4i_x-88axPY" frameborder:"0" allow="accelerometer;autoplay;clipboard-write;gyroscope;picture-in-piceture"allowfullscreen></iframe></center></div>
+  <div class="text">
+<h1 class="title"><center>Portaria MINISTRO DE ESTADO DO TRABALHO E EMPREGO nº 598 de 07.12.2004</center></h1>
+<p><center>D.O.U.:08.12.2004</center></p>
+   
+
+<p>(Altera a Norma Regulamentadora nº 10, que trata de Instalações e Serviços em Eletricidade, aprovada pela Portaria nº  3.214, de 1978)</p>
+
+<p>O MINISTRO DE ESTADO DO TRABALHO E EMPREGO, no uso de suas atribuições legais e tendo em vista o disposto no art. 200 da Consolidação das Leis do Trabalho, Decreto-Lei nº 5.452, de 1º de maio de 1943 e
+
+Considerando a proposta de regulamentação revisada e apresentada pelo Grupo de Trabalho Tripartite da Norma Regulamentadora nº 10, - GTT/NR-10, e aprovada pela Comissão Tripartite Paritária Permanente - CTPP, de acordo com o disposto na Portaria nº 1.127, de 02 de outubro de 2003, que estabelece procedimentos para elaboração de normas regulamentares relacionadas à segurança, saúde e condições gerais de trabalho, resolve:</p>
+
+<p>Art. 1º Alterar a Norma Regulamentadora nº 10 que trata de Instalações e Serviços em Eletricidade, aprovada pela Portaria nº 3.214, de 1978, que passa a vigorar na forma do disposto no Anexo a esta Portaria.</p>
+
+<p>Art. 2º As obrigações estabelecidas nesta Norma são de cumprimento imediato, exceto aquelas de que trata o Anexo II, que contém prazos específicos para atendimento.</p>
+
+<p>Parágrafo único. Até que se exaurem os prazos previstos para cumprimento das obrigações de que trata o Anexo II, permanecerá em vigor a regulamentação anterior.</p>
+
+<p>Art. 3º Criar a Comissão Permanente Nacional sobre Segurança em Energia Elétrica - CPNSEE, com o objetivo de acompanhar a implementação e propor as adequações necessárias ao aperfeiçoamento da Norma Regulamentadora nº 10.</p>
+
+<p>Art. 4º Esta Portaria entra em vigor na data de sua publicação.</p>
+
+RICARDO BERZOINI
+
+<p>ANEXO</p>
+<p>NORMA REGULAMENTADORA Nº 10 - SEGURANÇA EM INSTALAÇÕES E SERVIÇOS EM ELETRICIDADE</p>
+
+<p>10.1- OBJETIVO E CAMPO DE APLICAÇÃO</p>
+
+<p>10.1.1 Esta Norma Regulamentadora - NR estabelece os requisitos e condições mínimas objetivando a implementação de medidas de controle e sistemas preventivos, de forma a garantir a segurança e a saúde dos trabalhadores que, direta ou indiretamente, interajam em instalações elétricas e serviços com eletricidade.</p>
+
+<p>10.1.2 Esta NR se aplica às fases de geração, transmissão, distribuição e consumo, incluindo as etapas de projeto, construção, montagem, operação, manutenção das instalações elétricas e quaisquer trabalhos realizados nas suas proximidades, observando-se as normas técnicas oficiais estabelecidas pelos órgãos competentes e, na ausência ou omissão destas, as normas internacionais cabíveis.</p>
+
+<p>10.2 - MEDIDAS DE CONTROLE</p>
+
+<p>10.2.1 Em todas as intervenções em instalações elétricas devem ser adotadas medidas preventivas de controle do risco elétrico e de outros riscos adicionais, mediante técnicas de análise de risco, de forma a garantir a segurança e a saúde no trabalho.</p>
+
+<p>10.2.2 As medidas de controle adotadas devem integrar-se às demais iniciativas da empresa, no âmbito da preservação da segurança, da saúde e do meio ambiente do trabalho.</p>
+
+<p>10.2.3 As empresas estão obrigadas a manter esquemas unifilares atualizados das instalações elétricas dos seus estabelecimentos com as especificações do sistema de aterramento e demais equipamentos e dispositivos de proteção.</p>
+
+<p>10.2.4 Os estabelecimentos com carga instalada superior a 75 kW devem constituir e manter o Prontuário de Instalações Elétricas, contendo, além do disposto no subitem 10.2.3, no mínimo:</p>
+
+<p>a) conjunto de procedimentos e instruções técnicas e administrativas de segurança e saúde, implantadas e relacionadas a esta NR e descrição das medidas de controle existentes;</p>
+
+<p>b) documentação das inspeções e medições do sistema de proteção contra descargas atmosféricas e aterramentos elétricos;</p>
+
+<p>c) especificação dos equipamentos de proteção coletiva e individual e o ferramental, aplicáveis conforme determina esta NR;</p>
+
+<p>d) documentação comprobatória da qualificação, habilitação, capacitação, autorização dos trabalhadores e dos treinamentos realizados;</p>
+
+<p>e) resultados dos testes de isolação elétrica realizados em equipamentos de proteção individual e coletiva;</p>
+
+<p>f) certificações dos equipamentos e materiais elétricos em áreas classificadas; e</p>
+
+<p>g) relatório técnico das inspeções atualizadas com recomendações, cronogramas de adequações, contemplando as alíneas de "a" a "f".</p>
+
+<p>10.2.5 As empresas que operam em instalações ou equipamentos integrantes do sistema elétrico de potência devem constituir prontuário com o conteúdo do item 10.2.4 e acrescentar ao prontuário os documentos a seguir listados:</p>
+
+<p>a) descrição dos procedimentos para emergências; e</p>
+
+<p>b) certificações dos equipamentos de proteção coletiva e individual;</p>
+
+<p>10.2.5.1 As empresas que realizam trabalhos em proximidade do Sistema Elétrico de Potência devem constituir prontuário contemplando as alíneas "a", "c", "d" e "e", do item 10.2.4 e alíneas "a" e "b" do item 10.2.5.</p>
+
+<p>10.2.6 O Prontuário de Instalações Elétricas deve ser organizado e mantido atualizado pelo empregador ou pessoa formalmente designada pela empresa, devendo permanecer à disposição dos trabalhadores envolvidos nas instalações e serviços em eletricidade.</p>
+
+<p>10.2.7 Os documentos técnicos previstos no Prontuário de Instalações Elétricas devem ser elaborados por profissional legalmente habilitado.</p>
+
+<p>10.2.8 - MEDIDAS DE PROTEÇÃO COLETIVA</p>
+
+<p>10.2.8.1 Em todos os serviços executados em instalações elétricas devem ser previstas e adotadas, prioritariamente, medidas de proteção coletiva aplicáveis, mediante procedimentos, às atividades a serem desenvolvidas, de forma a garantir a segurança e a saúde dos trabalhadores.</p>
+
+<p>10.2.8.2 As medidas de proteção coletiva compreendem, prioritariamente, a desenergização elétrica conforme estabelece esta NR e, na sua impossibilidade, o emprego de tensão de segurança.</p>
+
+<p>10.2.8.2.1 Na impossibilidade de implementação do estabelecido no subitem 10.2.8.2., devem ser utilizadas outras medidas de proteção coletiva, tais como: isolação das partes vivas, obstáculos, barreiras, sinalização, sistema de seccionamento automático de alimentação, bloqueio do religamento automático.</p>
+
+<p>10.2.8.3 O aterramento das instalações elétricas deve ser executado conforme regulamentação estabelecida pelos órgãos competentes e, na ausência desta, deve atender às Normas Internacionais vigentes.</p>
+
+<p>10.2.9 - MEDIDAS DE PROTEÇÃO INDIVIDUAL</p>
+
+<p>10.2.9.1 Nos trabalhos em instalações elétricas, quando as medidas de proteção coletiva forem tecnicamente inviáveis ou insuficientes para controlar os riscos, devem ser adotados equipamentos de proteção individual específicos e adequados às atividades desenvolvidas, em atendimento ao disposto na NR 6.</p>
+
+<p>10.2.9.2 As vestimentas de trabalho devem ser adequadas às atividades, devendo contemplar a condutibilidade, inflamabilidade e influências eletromagnéticas.</p>
+
+<p>10.2.9.3 É vedado o uso de adornos pessoais nos trabalhos com instalações elétricas ou em suas proximidades.</p>
+
+<p>10.3 - SEGURANÇA EM PROJETOS</p>
+
+<p>10.3.1 É obrigatório que os projetos de instalações elétricas especifiquem dispositivos de desligamento de circuitos que possuam recursos para impedimento de reenergização, para sinalização de advertência com indicação da condição operativa.</p>
+
+<p>10.3.2 O projeto elétrico, na medida do possível, deve prever a instalação de dispositivo de seccionamento de ação simultânea, que permita a aplicação de impedimento de reenergização do circuito.</p>
+
+<p>10.3.3 O projeto de instalações elétricas deve considerar o espaço seguro, quanto ao dimensionamento e a localização de seus componentes e as influências externas, quando da operação e da realização de serviços de construção e manutenção.</p>
+
+<p>10.3.3.1 Os circuitos elétricos com finalidades diferentes, tais como: comunicação, sinalização, controle e tração elétrica devem ser identificados e instalados separadamente, salvo quando o desenvolvimento tecnológico permitir compartilhamento, respeitadas as definições de projetos.</p>
+
+<p>10.3.4 O projeto deve definir a configuração do esquema de aterramento, a obrigatoriedade ou não da interligação entre o condutor neutro e o de proteção e a conexão à terra das partes condutoras não destinadas à condução da eletricidade.</p>
+
+<p>10.3.5 Sempre que for tecnicamente viável e necessário, devem ser projetados dispositivos de seccionamento que incorporem recursos fixos de equipotencialização e aterramento do circuito seccionado.</p>
+
+<p>10.3.6 Todo projeto deve prever condições para a adoção de aterramento temporário.</p>
+
+<p>10.3.7 O projeto das instalações elétricas deve ficar à disposição dos trabalhadores autorizados, das autoridades competentes e de outras pessoas autorizadas pela empresa e deve ser mantido atualizado.</p>
+
+<p>10.3.8 O projeto elétrico deve atender ao que dispõem as Normas Regulamentadoras de Saúde e Segurança no Trabalho, as regulamentações técnicas oficiais estabelecidas, e ser assinado por profissional legalmente habilitado.</p>
+
+<p>10.3.9 O memorial descritivo do projeto deve conter, no mínimo, os seguintes itens de segurança:</p>
+
+<p>a) especificação das características relativas à proteção contra choques elétricos, queimaduras e outros riscos adicionais;</p>
+
+<p>b) indicação de posição dos dispositivos de manobra dos circuitos elétricos: (Verde - "D", desligado e Vermelho - "L", ligado)</p>
+
+<p>c) descrição do sistema de identificação de circuitos elétricos e equipamentos, incluindo dispositivos de manobra, de controle, de proteção, de intertravamento, dos condutores e os próprios equipamentos e estruturas, definindo como tais indicações devem ser aplicadas fisicamente nos componentes das instalações;</p>
+
+<p>d) recomendações de restrições e advertências quanto ao acesso de pessoas aos componentes das instalações;</p>
+
+<p>e) precauções aplicáveis em face das influências externas;</p>
+
+<p>f) o princípio funcional dos dispositivos de proteção, constantes do projeto, destinados à segurança das pessoas; e</p>
+
+<p>g) descrição da compatibilidade dos dispositivos de proteção com a instalação elétrica.</p>
+
+<p>10.3.10 Os projetos devem assegurar que as instalações proporcionem aos trabalhadores iluminação adequada e uma posição de trabalho segura, de acordo com a NR 17 - Ergonomia.</p>
+
+<p>10.4 - SEGURANÇA NA CONSTRUÇÃO, MONTAGEM, OPERAÇÃO E MANUTENÇÃO</p>
+
+<p>10.4.1 As instalações elétricas devem ser construídas, montadas, operadas, reformadas, ampliadas, reparadas e inspecionadas de forma a garantir a segurança e a saúde dos trabalhadores e dos usuários, e serem supervisionadas por profissional autorizado, conforme dispõe esta NR.</p>
+
+<p>10.4.2 Nos trabalhos e nas atividades referidas devem ser adotadas medidas preventivas destinadas ao controle dos riscos adicionais, especialmente quanto a altura, confinamento, campos elétricos e magnéticos, explosividade, umidade, poeira, fauna e flora e outros agravantes, adotando-se a sinalização de segurança.</p>
+
+<p>10.4.3 Nos locais de trabalho só podem ser utilizados equipamentos, dispositivos e ferramentas elétricas compatíveis com a instalação elétrica existente, preservando-se as características de proteção, respeitadas as recomendações do fabricante e as influências externas.</p>
+
+<p>10.4.3.1 Os equipamentos, dispositivos e ferramentas que possuam isolamento elétrico devem estar adequados às tensões envolvidas, e serem inspecionados e testados de acordo com as regulamentações existentes ou recomendações dos fabricantes.</p>
+
+<p>10.4.4 As instalações elétricas devem ser mantidas em condições seguras de funcionamento e seus sistemas de proteção devem ser inspecionados e controlados periodicamente, de acordo com as regulamentações existentes e definições de projetos.</p>
+
+<p>10.4.4.1 Os locais de serviços elétricos, compartimentos e invólucros de equipamentos e instalações elétricas são exclusivos para essa finalidade, sendo expressamente proibido utilizá-los para armazenamento ou guarda de quaisquer objetos.</p>
+
+<p>10.4.5 Para atividades em instalações elétricas deve ser garantida ao trabalhador iluminação adequada e uma posição de trabalho segura, de acordo com a NR 17 - Ergonomia, de forma a permitir que ele disponha dos membros superiores livres para a realização das tarefas.</p>
+
+<p>10.4.6 Os ensaios e testes elétricos laboratoriais e de campo ou comissionamento de instalações elétricas devem atender à regulamentação estabelecida nos itens 10.6 e 10.7, e somente podem ser realizados por trabalhadores que atendam às condições de qualificação, habilitação, capacitação e autorização estabelecidas nesta NR.</p>
+
+<p>10.5 - SEGURANÇA EM INSTALAÇÕES ELÉTRICAS DESENERGIZADAS</p>
+
+<p>10.5.1 Somente serão consideradas desenergizadas as instalações elétricas liberadas para trabalho, mediante os procedimentos apropriados, obedecida a seqüência abaixo:</p>
+
+<p>a) seccionamento;</p>
+
+<p>b) impedimento de reenergização;</p>
+
+<p>c) constatação da ausência de tensão;</p>
+
+<p>d) instalação de aterramento temporário com equipotencialização dos condutores dos circuitos;</p>
+
+<p>e) proteção dos elementos energizados existentes na zona controlada (Anexo I); e</p>
+
+<p>f) instalação da sinalização de impedimento de reenergização.</p>
+
+<p>10.5.2 O estado de instalação desenergizada deve ser mantido até a autorização para reenergização, devendo ser reenergizada respeitando a seqüência de procedimentos abaixo:</p>
+
+<p>a) retirada das ferramentas, utensílios e equipamentos;</p>
+
+<p>b) retirada da zona controlada de todos os trabalhadores não envolvidos no processo de reenergização;</p>
+
+<p>c) remoção do aterramento temporário, da equipotencialização e das proteções adicionais;</p>
+
+<p>d) remoção da sinalização de impedimento de reenergização; e</p>
+
+<p>e) destravamento, se houver, e religação dos dispositivos de seccionamento.</p>
+
+<p>10.5.3 As medidas constantes das alíneas apresentadas nos itens 10.5.1 e 10.5.2 podem ser alteradas, substituídas, ampliadas ou eliminadas, em função das peculiaridades de cada situação, por profissional legalmente habilitado, autorizado e mediante justificativa técnica previamente formalizada, desde que seja mantido o mesmo nível de segurança originalmente preconizado.</p>
+
+<p>10.5.4 Os serviços a serem executados em instalações elétricas desligadas, mas com possibilidade de energização, por qualquer meio ou razão, devem atender ao que estabelece o disposto no item 10.6.</p>
+
+<p>10.6 - SEGURANÇA EM INSTALAÇÕES ELÉTRICAS ENERGIZADAS</p>
+
+<p>10.6.1 As intervenções em instalações elétricas com tensão igual ou superior a 50 Volts em corrente alternada ou superior a 120 Volts em corrente contínua somente podem ser realizadas por trabalhadores que atendam ao que estabelece o item 10.8 desta Norma.</p>
+
+<p>10.6.1.1 Os trabalhadores de que trata o item anterior devem receber treinamento de segurança para trabalhos com instalações elétricas energizadas, com currículo mínimo, carga horária e demais determinações estabelecidas no Anexo II desta NR.</p>
+
+<p>10.6.1.2 As operações elementares como ligar e desligar circuitos elétricos, realizadas em baixa tensão, com materiais e equipamentos elétricos em perfeito estado de conservação, adequados para operação, podem ser realizadas por qualquer pessoa não advertida.</p>
+
+<p>10.6.2 Os trabalhos que exigem o ingresso na zona controlada devem ser realizados mediante procedimentos específicos respeitando as distâncias previstas no Anexo I.</p>
+
+<p>10.6.3 Os serviços em instalações energizadas, ou em suas proximidades devem ser suspensos de imediato na iminência de ocorrência que possa colocar os trabalhadores em perigo.</p>
+
+<p>10.6.4 Sempre que inovacões tecnológicas forem implementadas ou para a entrada em operações de novas instalações ou equipamentos elétricos devem ser previamente elaboradas análises de risco, desenvolvidas com circuitos desenergizados, e respectivos procedimentos de trabalho.</p>
+
+<p>10.6.5 O responsável pela execução do serviço deve suspender as atividades quando verificar situação ou condição de risco não prevista, cuja eliminação ou neutralização imediata não seja possível.</p>
+
+<p>10.7 - TRABALHOS ENVOLVENDO ALTA TENSÃO (AT)</p>
+
+<p>10.7.1 Os trabalhadores que intervenham em instalações elétricas energizadas com alta tensão, que exerçam suas atividades dentro dos limites estabelecidos como zonas controladas e de risco, conforme Anexo I, devem atender ao disposto no item 10.8 desta NR.</p>
+
+<p>10.7.2 Os trabalhadores de que trata o item 10.7.1 devem receber treinamento de segurança, específico em segurança no Sistema Elétrico de Potência (SEP) e em suas proximidades, com currículo mínimo, carga horária e demais determinações estabelecidas no Anexo II desta NR.</p>
+
+<p>10.7.3 Os serviços em instalações elétricas energizadas em AT, bem como aqueles executados no Sistema Elétrico de Potência - SEP, não podem ser realizados individualmente.</p>
+
+<p>10.7.4 Todo trabalho em instalações elétricas energizadas em AT, bem como aquelas que interajam com o SEP, somente pode ser realizado mediante ordem de serviço específica para data e local, assinada por superior responsável pela área.</p>
+
+<p>10.7.5 Antes de iniciar trabalhos em circuitos energizados em AT, o superior imediato e a equipe, responsáveis pela execução do serviço, devem realizar uma avaliação prévia, estudar e planejar as atividades e ações a serem desenvolvidas de forma a atender os princípios técnicos básicos e as melhores técnicas de segurança em eletricidade aplicáveis ao serviço.</p>
+
+<p>10.7.6 Os serviços em instalações elétricas energizadas em AT somente podem ser realizados quando houver procedimentos específicos, detalhados e assinados por profissional autorizado.</p>
+
+<p>10.7.7 A intervenção em instalações elétricas energizadas em AT dentro dos limites estabelecidos como zona de risco, conforme Anexo I desta NR, somente pode ser realizada mediante a desativação, também conhecida como bloqueio, dos conjuntos e dispositivos de religamento automático do circuito, sistema ou equipamento.</p>
+
+<p>10.7.7.1 Os equipamentos e dispositivos desativados devem ser sinalizados com identificação da condição de desativação, conforme procedimento de trabalho específico padronizado.</p>
+
+<p>10.7.8 Os equipamentos, ferramentas e dispositivos isolantes ou equipados com materiais isolantes, destinados ao trabalho em alta tensão, devem ser submetidos a testes elétricos ou ensaios de laboratório periódicos, obedecendo-se as especificações do fabricante, os procedimentos da empresa e na ausência desses, anualmente.</p>
+
+<p>10.7.9 Todo trabalhador em instalações elétricas energizadas em AT, bem como aqueles envolvidos em atividades no SEP devem dispor de equipamento que permita a comunicação permanente com os demais membros da equipe ou com o centro de operação durante a realização do serviço.</p>
+
+<p>10.8 - HABILITAÇÃO, QUALIFICAÇÃO, CAPACITAÇÃO E AUTORIZAÇÃO DOS TRABALHADORES.</p>
+
+<p>10.8.1 É considerado trabalhador qualificado aquele que comprovar conclusão de curso específico na área elétrica reconhecido pelo Sistema Oficial de Ensino.</p>
+
+<p>10.8.2 É considerado profissional legalmente habilitado o trabalhador previamente qualificado e com registro no competente conselho de classe.</p>
+
+<p>10.8.3 É considerado trabalhador capacitado aquele que atenda às seguintes condições, simultaneamente:</p>
+
+<p>a) receba capacitação sob orientação e responsabilidade de profissional habilitado e autorizado; e</p>
+
+<p>b) trabalhe sob a responsabilidade de profissional habilitado e autorizado.</p>
+
+<p>10.8.3.1 A capacitação só terá validade para a empresa que o capacitou e nas condições estabelecidas pelo profissional habilitado e autorizado responsável pela capacitação.</p>
+
+<p>10.8.4 São considerados autorizados os trabalhadores qualificados ou capacitados e os profissionais habilitados, com anuência formal da empresa.</p>
+
+<p>10.8.5 A empresa deve estabelecer sistema de identificação que permita a qualquer tempo conhecer a abrangência da autorização de cada trabalhador, conforme o item 10.8.4.</p>
+
+<p>10.8.6 Os trabalhadores autorizados a trabalhar em instalações elétricas devem ter essa condição consignada no sistema de registro de empregado da empresa.</p>
+
+<p>10.8.7 Os trabalhadores autorizados a intervir em instalações elétricas devem ser submetidos à exame de saúde compatível com as atividades a serem desenvolvidas, realizado em conformidade com a NR 7 e registrado em seu prontuário médico.</p>
+
+<p>10.8.8 Os trabalhadores autorizados a intervir em instalações elétricas devem possuir treinamento específico sobre os riscos decorrentes do emprego da energia elétrica e as principais medidas de prevenção de acidentes em instalações elétricas, de acordo com o estabelecido no Anexo II desta NR.</p>
+
+<p>10.8.8.1 A empresa concederá autorização na forma desta NR aos trabalhadores capacitados ou qualificados e aos profissionais habilitados que tenham participado com avaliação e aproveitamento satisfatórios dos cursos constantes do ANEXO II desta NR.</p>
+
+<p>10.8.8.2 Deve ser realizado um treinamento de reciclagem bienal e sempre que ocorrer alguma das situações a seguir:</p>
+
+<p>a) troca de função ou mudança de empresa;</p>
+
+<p>b) retorno de afastamento ao trabalho ou inatividade, por período superior a três meses; e</p>
+
+<p>c) modificações significativas nas instalações elétricas ou troca de métodos, processos e organização do trabalho.</p>
+
+<p>10.8.8.3 A carga horária e o conteúdo programático dos treinamentos de reciclagem destinados ao atendimento das alíneas "a", "b" e "c" do item 10.8.8.2 devem atender as necessidades da situação que o motivou.</p>
+
+<p>10.8.8.4 Os trabalhos em áreas classificadas devem ser precedidos de treinamento especifico de acordo com risco envolvido.</p>
+
+<p>10.8.9 Os trabalhadores com atividades não relacionadas às instalações elétricas desenvolvidas em zona livre e na vizinhança da zona controlada, conforme define esta NR, devem ser instruídos formalmente com conhecimentos que permitam identificar e avaliar seus possíveis riscos e adotar as precauções cabíveis.</p>
+
+<p>10.9 - PROTEÇÃO CONTRA INCÊNDIO E EXPLOSÃO</p>
+
+<p>10.9.1 As áreas onde houver instalações ou equipamentos elétricos devem ser dotadas de proteção contra incêndio e explosão, conforme dispõe a NR 23 - Proteção Contra Incêndios.</p>
+
+<p>10.9.2 Os materiais, peças, dispositivos, equipamentos e sistemas destinados à aplicação em instalações elétricas de ambientes com atmosferas potencialmente explosivas devem ser avaliados quanto à sua conformidade, no âmbito do Sistema Brasileiro de Certificação.</p>
+
+<p>10.9.3 Os processos ou equipamentos susceptíveis de gerar ou acumular eletricidade estática devem dispor de proteção específica e dispositivos de descarga elétrica.</p>
+
+<p>10.9.4 Nas instalações elétricas de áreas classificadas ou sujeitas a risco acentuado de incêndio ou explosões, devem ser adotados dispositivos de proteção, como alarme e seccionamento automático para prevenir sobretensões, sobrecorrentes, falhas de isolamento, aquecimentos ou outras condições anormais de operação.</p>
+
+<p>10.9.5 Os serviços em instalações elétricas nas áreas classificadas somente poderão ser realizados mediante permissão para o trabalho com liberação formalizada, conforme estabelece o item 10.5 ou supressão do agente de risco que determina a classificação da área</p>
+
+<p>10.10- SINALIZAÇÃO DE SEGURANÇA</p>
+
+<p>10.10.1 Nas instalações e serviços em eletricidade deve ser adotada sinalização adequada de segurança, destinada à advertência e à identificação, obedecendo ao disposto na NR-26 - Sinalização de Segurança, de forma a atender, dentre outras, as situações a seguir:</p>
+
+<p>a) identificação de circuitos elétricos;</p>
+
+<p>b) travamentos e bloqueios de dispositivos e sistemas de manobra e comandos;</p>
+
+<p>c) restrições e impedimentos de acesso;</p>
+
+<p>d) delimitações de áreas;</p>
+
+<p>e) sinalização de áreas de circulação, de vias públicas, de veículos e de movimentação de cargas;</p>
+
+<p>f) sinalização de impedimento de energização; e</p>
+
+<p>g) identificação de equipamento ou circuito impedido.</p>
+
+<p>10.11 - PROCEDIMENTOS DE TRABALHO</p>
+
+<p>10.11.1 Os serviços em instalações elétricas devem ser planejados e realizados em conformidade com procedimentos de trabalho específicos, padronizados, com descrição detalhada de cada tarefa, passo a passo, assinados por profissional que atenda ao que estabelece o item 10.8 desta NR.</p>
+
+<p>10.11.2 Os serviços em instalações elétricas devem ser precedidos de ordens de serviço especificas, aprovadas por trabalhador autorizado, contendo, no mínimo, o tipo, a data, o local e as referências aos procedimentos de trabalho a serem adotados.</p>
+
+<p>10.11.3 Os procedimentos de trabalho devem conter, no mínimo, objetivo, campo de aplicação, base técnica, competências e responsabilidades, disposições gerais, medidas de controle e orientações finais.</p>
+
+<p>10.11.4 Os procedimentos de trabalho, o treinamento de segurança e saúde e a autorização de que trata o item 10.8 devem ter a participação em todo processo de desenvolvimento do Serviço Especializado de Engenharia de Segurança e Medicina do Trabalho - SESMT, quando houver. 10.11.5 A autorização referida no item 10.8 deve estar em conformidade com o treinamento ministrado, previsto no Anexo II desta NR.</p>
+
+<p>10.11.6 Toda equipe deverá ter um de seus trabalhadores indicado e em condições de exercer a supervisão e condução dos trabalhos.</p>
+
+<p>10.11.7 Antes de iniciar trabalhos em equipe os seus membros, em conjunto com o responsável pela execução do serviço, devem realizar uma avaliação prévia, estudar e planejar as atividades e ações a serem desenvolvidas no local, de forma a atender os princípios técnicos básicos e as melhores técnicas de segurança aplicáveis ao serviço.</p>
+
+<p>10.11.8 A alternância de atividades deve considerar a análise de riscos das tarefas e a competência dos trabalhadores envolvidos, de forma a garantir a segurança e a saúde no trabalho.</p>
+
+<p>10.12 - SITUAÇÃO DE EMERGÊNCIA</p>
+
+<p>10.12.1 As ações de emergência que envolvam as instalações ou serviços com eletricidade devem constar do plano de emergência da empresa.</p>
+
+<p>10.12.2 Os trabalhadores autorizados devem estar aptos a executar o resgate e prestar primeiros socorros a acidentados, especialmente por meio de reanimação cardio-respiratória.</p>
+
+<p>10.12.3 A empresa deve possuir métodos de resgate padronizados e adequados às suas atividades, disponibilizando os meios para a sua aplicação.</p>
+
+<p>10.12.4 Os trabalhadores autorizados devem estar aptos a manusear e operar equipamentos de prevenção e combate a incêndio existentes nas instalações elétricas.</p>
+
+<p>10.13 - RESPONSABILIDADES</p>
+
+<p class="ti">10.13.1 As responsabilidades quanto ao cumprimento desta NR são solidárias aos contratantes e contratados envolvidos.<h5>(Revogado pela Portaria SEPRT n.º 915, de 30 de julho de 2019)</h5></p>
+
+<p>10.13.2 É de responsabilidade dos contratantes manter os trabalhadores informados sobre os riscos a que estão expostos, instruindo-os quanto aos procedimentos e medidas de controle contra os riscos elétricos a serem adotados.</p>
+
+<p>10.13.3 Cabe à empresa, na ocorrência de acidentes de trabalho envolvendo instalações e serviços em eletricidade, propor e adotar medidas preventivas e corretivas.</p>
+
+<p>10.13.4 Cabe aos trabalhadores:</p>
+
+<p>a) zelar pela sua segurança e saúde e a de outras pessoas que possam ser afetadas por suas ações ou omissões no trabalho;</p>
+
+<p>b) responsabilizar-se junto com a empresa pelo cumprimento das disposições legais e regulamentares, inclusive quanto aos procedimentos internos de segurança e saúde; e</p>
+
+<p>c) comunicar, de imediato, ao responsável pela execução do serviço as situações que considerar de risco para sua segurança e saúde e a de outras pessoas.</p>
+
+<p>10.14 - DISPOSIÇÕES FINAIS</p>
+
+<p class="ti" >10.14.1 Os trabalhadores devem interromper suas tarefas exercendo o direito de recusa, sempre que constatarem evidências de riscos graves e iminentes para sua segurança e saúde ou a de outras pessoas, comunicando imediatamente o fato a seu superior hierárquico, que diligenciará as medidas cabíveis.<h5>(Revogado pela Portaria SEPRT n.º 915, de 30 de julho de
+2019)</h5></p>
+
+<p>10.14.2 As empresas devem promover ações de controle de riscos originados por outrem em suas instalações elétricas e oferecer, de imediato, quando cabível, denúncia aos órgãos competentes.</p>
+
+<p>10.14.3 Na ocorrência do não cumprimento das normas constantes nesta NR, o MTE adotará as providências estabelecidas na NR 3.</p>
+
+<p>10.14.4 A documentação prevista nesta NR deve estar permanentemente à disposição dos trabalhadores que atuam em serviços e instalações elétricas, respeitadas as abrangências, limitações e interferências nas tarefas.</p>
+
+<p class="ti" >10.14.5 A documentação prevista nesta NR deve estar, permanentemente, à disposição das autoridades competentes.<h5>(Revogado pela Portaria SEPRT n.º 915, de 30 de julho de 2019)</h5></p>
+
+<p>10.14.6 Esta NR não é aplicável a instalações elétricas alimentadas por extra-baixa tensão.</p>
+
+<p>GLOSSÁRIO</p>
+
+<p>1. Alta Tensão (AT): tensão superior a 1000 volts em corrente alternada ou 1500 volts em corrente contínua, entre fases ou entre fase e terra.</p>
+
+<p>2. Área Classificada: local com potencialidade de ocorrência de atmosfera explosiva.</p>
+
+<p>3. Aterramento Elétrico Temporário: ligação elétrica efetiva confiável e adequada intencional à terra, destinada a garantir a equipotencialidade e mantida continuamente durante a intervenção na instalação elétrica.</p>
+
+<p>4. Atmosfera Explosiva: mistura com o ar, sob condições atmosféricas, de substâncias inflamáveis na forma de gás, vapor, névoa, poeira ou fibras, na qual após a ignição a combustão se propaga.</p>
+
+<p>5. Baixa Tensão (BT): tensão superior a 50 volts em corrente alternada ou 120 volts em corrente contínua e igual ou inferior a 1000 volts em corrente alternada ou 1500 volts em corrente contínua, entre fases ou entre fase e terra.</p>
+
+<p>6. Barreira: dispositivo que impede qualquer contato com partes energizadas das instalações elétricas.</p>
+
+<p>7. Direito de Recusa: instrumento que assegura ao trabalhador a interrupção de uma atividade de trabalho por considerar que ela envolve grave e iminente risco para sua segurança e saúde ou de outras pessoas.</p>
+
+<p>8. Equipamento de Proteção Coletiva (EPC): dispositivo, sistema, ou meio, fixo ou móvel de abrangência coletiva, destinado a preservar a integridade física e a saúde dos trabalhadores, usuários e terceiros.</p>
+
+<p>9. Equipamento Segregado: equipamento tornado inacessível por meio de invólucro ou barreira.</p>
+
+<p>10. Extra-Baixa Tensão (EBT): tensão não superior a 50 volts em corrente alternada ou 120 volts em corrente contínua, entre fases ou entre fase e terra.</p>
+
+<p>11. Influências Externas: variáveis que devem ser consideradas na definição e seleção de medidas de proteção para segurança das pessoas e desempenho dos componentes da instalação.</p>
+
+<p>12. Instalação Elétrica: conjunto das partes elétricas e não elétricas associadas e com características coordenadas entre si, que são necessárias ao funcionamento de uma parte determinada de um sistema elétrico.</p>
+
+<p>13. Instalação Liberada para Serviços (BT/AT): aquela que garanta as condições de segurança ao trabalhador por meio de procedimentos e equipamentos adequados desde o início até o final dos trabalhos e liberação para uso.</p>
+
+<p>14. Impedimento de Reenergização: condição que garante a não energização do circuito através de recursos e procedimentos apropriados, sob controle dos trabalhadores envolvidos nos serviços.</p>
+
+<p>15. Invólucro: envoltório de partes energizadas destinado a impedir qualquer contato com partes internas.</p>
+
+<p>16. Isolamento Elétrico: processo destinado a impedir a passagem de corrente elétrica, por interposição de materiais isolantes.</p>
+
+<p>17. Obstáculo: elemento que impede o contato acidental, mas não impede o contato direto por ação deliberada.</p>
+
+<p>18. Perigo: situação ou condição de risco com probabilidade de causar lesão física ou dano à saúde das pessoas por ausência de medidas de controle.</p>
+
+<p>19. Pessoa Advertida: pessoa informada ou com conhecimento suficiente para evitar os perigos da eletricidade.</p>
+
+<p>20. Procedimento: seqüência de operações a serem desenvolvidas para realização de um determinado trabalho, com a inclusão dos meios materiais e humanos, medidas de segurança e circunstâncias que impossibilitem sua realização.</p>
+
+<p>21. Prontuário: sistema organizado de forma a conter uma memória dinâmica de informações pertinentes às instalações e aos trabalhadores.</p>
+
+<p>22. Risco: capacidade de uma grandeza com potencial para causar lesões ou danos à saúde das pessoas.</p>
+
+<p>23. Riscos Adicionais: todos os demais grupos ou fatores de risco, além dos elétricos, específicos de cada ambiente ou processos de Trabalho que, direta ou indiretamente, possam afetar a segurança e a saúde no trabalho.</p>
+
+<p>24. Sinalização: procedimento padronizado destinado a orientar, alertar, avisar e advertir.</p>
+
+<p>25. Sistema Elétrico: circuito ou circuitos elétricos interrelacionados destinados a atingir um determinado objetivo.</p>
+
+<p>26. Sistema Elétrico de Potência (SEP): conjunto das instalações e equipamentos destinados à geração, transmissão e distribuição de energia elétrica até a medição, inclusive.</p>
+
+<p>27. Tensão de Segurança: extra baixa tensão originada em uma fonte de segurança.</p>
+
+<p>28. Trabalho em Proximidade: trabalho durante o qual o trabalhador pode entrar na zona controlada, ainda que seja com uma parte do seu corpo ou com extensões condutoras, representadas por materiais, ferramentas ou equipamentos que manipule.</p>
+
+<p>29. Travamento: ação destinada a manter, por meios mecânicos, um dispositivo de manobra fixo numa determinada posição, de forma a impedir uma operação não autorizada.</p>
+
+<p>30. Zona de Risco: entorno de parte condutora energizada, não segregada, acessível inclusive acidentalmente, de dimensões estabelecidas de acordo com o nível de tensão, cuja aproximação só é permitida a profissionais autorizados e com a adoção de técnicas e instrumentos apropriados de trabalho.</p>
+
+<p>31. Zona Controlada: entorno de parte condutora energizada, não segregada, acessível, de dimensões estabelecidas de acordo com o nível de tensão, cuja aproximação só é permitida a profissionais autorizados.</p>
+    
+    <center><h2>ANEXO II</h2></center>
+<p>ZONA DE RISCO E ZONA CONTROLADA</p>
+
+<p>Tabela de raios de delimitação de zonas de risco, controlada e livre.</p>
+
+<p>Faixa de tensão Nominal da instalação elétrica em kV Rr - Raio de delimitação entre zona de risco e controlada em metros Rc - Raio de delimitação entre zona controlada e livre em metros</p>
+    <table class="tabela">
+<tr><th>
+Faixa de tensão Nominal da instalação elétrica em kV  Rr - Raio de delimitação entre zona de risco e controlada em metros Rc - Raio de delimitação entre zona controlada e livre em metros</th></tr><tr><td><1  0,20  0,70
+e <3  0,22  1,22
+e <6  0,25  1,25
+e <10 0,35  1,35
+e <15 0,38  1,38
+e <20 0,40  1,40
+e <30 0,56  1,56</td>
+<td>e <36 0,58  1,58
+e <45 0,63  1,63
+e <60 0,83  1,83
+e <70 0,90  1,90
+e <110  1,00  2,00
+e <132  1,10  3,10</td>
+<td>e <150  1,20  3,20
+e <220  1,60  3,60
+e <275  1,80  3,80
+e <380  2,50  4,50
+e <480  3,20  5,20
+e <700  5,20  7,20</td></tr>
+</table>
+<p>Figura 1 - Distâncias no ar que delimitam radialmente as zonas de risco, controlada e livre</p>
+
+    <center><img src="https://www.guiatrabalhista.com.br/imagens/portaria598_1.gif"></center>
+<p>Veja a Imagem</p>
+<p>Figura 2 - Distâncias no ar que delimitam radialmente as zonas de risco, controlada e livre, com interposição de superfície de separação física adequada.<p>
+    <center><img src="https://www.guiatrabalhista.com.br/imagens/portaria598_2.gif"></center>
+
+<p>ZL = Zona livre</p>
+
+<p>ZC = Zona controlada, restrita a trabalhadores autorizados.</p>
+
+<p>ZR = Zona de risco, restrita a trabalhadores autorizados e com a adoção de técnicas, instrumentos e equipamentos apropriados ao trabalho.</p>
+
+<p>PE = Ponto da instalação energizado.</p>
+
+<p>SI = Superfície isolante construída com material resistente e dotada de todos dispositivos de segurança.</p>
+
+Veja a Imagem
+ 
+<center><h2>ANEXO III</h2></center>
+
+<p>TREINAMENTO</p>
+
+<p>1. CURSO BÁSICO - SEGURANÇA EM INSTALAÇÕES E SERVIÇOS COM ELETRICIDADE</p>
+
+<p>I - Para os trabalhadores autorizados: carga horária mínima - 40h:</p>
+
+<p>Programação Mínima:</p>
+
+<p>1. introdução à segurança com eletricidade.</p>
+
+<p>2. riscos em instalações e serviços com eletricidade:</p>
+
+<p>a) o choque elétrico, mecanismos e efeitos;</p>
+
+<p>b) arcos elétricos; queimaduras e quedas;</p>
+
+<p>c) campos eletromagnéticos.</p>
+
+<p>3. Técnicas de Análise de Risco.</p>
+
+<p>4. Medidas de Controle do Risco Elétrico:</p>
+
+<p>a) desenergização.</p>
+
+<p>b) aterramento funcional (TN / TT / IT); de proteção; temporário;</p>
+
+<p>c) equipotencialização;</p>
+
+  <p>d) seccionamento automático da alimentação;</p>
+
+<p>e) dispositivos a corrente de fuga;</p>
+
+<p>f) extra baixa tensão;</p>
+
+<p>g) barreiras e invólucros;</p>
+
+<p>h) bloqueios e impedimentos;</p>
+
+<p>i) obstáculos e anteparos;</p>
+
+<p>j) isolamento das partes vivas;</p>
+
+<p>k) isolação dupla ou reforçada;</p>
+
+<p>l) colocação fora de alcance;</p>
+
+<p>m) separação elétrica.</p>
+
+<p>5. Normas Técnicas Brasileiras - NBR da ABNT: NBR-5410, NBR 14039 e outras;</p>
+
+<p>6) Regulamentações do MTE:</p>
+
+<p>a) NRs;</p>
+
+<p>b) NR-10 (Segurança em Instalações e Serviços com Eletricidade);</p>
+
+<p>c) qualificação; habilitação; capacitação e autorização.</p>
+
+<p>7. Equipamentos de proteção coletiva.</p>
+
+<p>8. Equipamentos de proteção individual.</p>
+
+<p>9. Rotinas de trabalho - Procedimentos.</p>
+
+<p>a) instalações desenergizadas;</p>
+
+<p>b) liberação para serviços;</p>
+
+<p>c) sinalização;</p>
+
+<p>d) inspeções de áreas, serviços, ferramental e equipamento;</p>
+
+<p>10. Documentação de instalações elétricas.</p>
+
+<p>11. Riscos adicionais:</p>
+
+<p>a) altura;</p>
+
+<p>b) ambientes confinados;</p>
+
+<p>c) áreas classificadas;</p>
+
+<p>d) umidade;</p>
+
+<p>e) condições atmosféricas.</p>
+
+<p>12. Proteção e combate a incêndios:</p>
+
+<p>a) noções básicas;</p>
+
+<p>b) medidas preventivas;</p>
+
+<p>c) métodos de extinção;</p>
+
+<p>d) prática;</p>
+
+<p>13. Acidentes de origem elétrica:</p>
+
+<p>a) causas diretas e indiretas;</p>
+
+<p>b) discussão de casos;</p>
+
+<p>14. Primeiros socorros:</p>
+
+<p>a) noções sobre lesões;</p>
+
+<p>b) priorização do atendimento;</p>
+
+<p>c) aplicação de respiração artificial;</p>
+
+<p>d) massagem cardíaca;</p>
+
+<p>e) técnicas para remoção e transporte de acidentados;</p>
+
+<p>f) práticas.</p>
+
+<p>15. Responsabilidades.</p>
+
+<p>2. CURSO COMPLEMENTAR - SEGURANÇA NO SISTEMA ELÉTRICO DE POTÊNCIA (SEP) E EM SUAS PROXIMIDADES.</p>
+
+<p>É pré-requisito para freqüentar este curso complementar, ter participado, com aproveitamento satisfatório, do curso básico definido anteriormente.</p>
+
+<p>Carga horária mínima - 40h</p>
+
+<p>(*) Estes tópicos deverão ser desenvolvidos e dirigidos especificamente para as condições de trabalho características de cada ramo, padrão de operação, de nível de tensão e de outras peculiaridades específicas ao tipo ou condição especial de atividade, sendo obedecida a hierarquia no aperfeiçoamento técnico do trabalhador.</p>
+
+<p>I - Programação Mínima:</p>
+
+<p>1 - Organização do Sistema Elétrico de Potencia - SEP.</p>
+
+<p>2 - Organização do trabalho:</p>
+
+<p>a) programação e planejamento dos serviços;</p>
+
+<p>b) trabalho em equipe;</p>
+
+<p>c) prontuário e cadastro das instalações;</p>
+
+<p>d) métodos de trabalho; e</p>
+
+<p>e) comunicação.</p>
+
+<p>3. Aspectos comportamentais.</p>
+
+<p>4. Condições impeditivas para serviços.</p>
+
+<p>5. Riscos típicos no SEP e sua prevenção (*):</p>
+
+<p>a) proximidade e contatos com partes energizadas;</p>
+
+<p>b) indução;</p>
+
+<p>c) descargas atmosféricas;</p>
+
+<p>d) estática;</p>
+
+<p>e) campos elétricos e magnéticos;</p>
+
+<p>f) comunicação e identificação; e</p>
+
+<p>g) trabalhos em altura, máquinas e equipamentos especiais.</p>
+
+<p>6. Técnicas de análise de Risco no S E P (*)</p>
+
+<p>7. Procedimentos de trabalho - análise e discussão. (*)</p>
+
+<p>8. Técnicas de trabalho sob tensão: (*)</p>
+
+<p>a) em linha viva;</p>
+
+<p>b) ao potencial;</p>
+
+<p>c) em áreas internas;</p>
+
+<p>d) trabalho a distância;</p>
+
+<p>d) trabalhos noturnos; e</p>
+
+<p>e) ambientes subterrâneos.</p>
+
+<p>9. Equipamentos e ferramentas de trabalho (escolha, uso, conservação, verificação, ensaios) (*).</p>
+
+<p>10. Sistemas de proteção coletiva (*).</p>
+
+       <p>11. Equipamentos de proteção individual (*).</p>
+
+<p>12. Posturas e vestuários de trabalho (*).</p>
+
+<p>13. Segurança com veículos e transporte de pessoas, materiais e equipamentos(*).</p>
+
+<p>14. Sinalização e isolamento de áreas de trabalho(*).</p>
+
+<p>15. Liberação de instalação para serviço e para operação e uso (*).</p>
+
+<p>16. Treinamento em técnicas de remoção, atendimento, transporte de acidentados (*).</p>
+
+<p>17. Acidentes típicos (*) - Análise, discussão, medidas de proteção.</p>
+
+<p>18. Responsabilidades (*).</p>
+
+<center><h2>ANEXO IV<h2></center>
+
+<p>PRAZOS PARA CUMPRIMENTO DOS ITENS DA NORMA REGULAMENTADORA Nº 10</p>
+
+       <h6>1. prazo de seis meses: 10.3.1; 10.3.6 e 10.9.2;</h6>
+
+<h6>2. prazo de nove meses: 10.2.3; 10.7.3; 10.7.8 e 10.12.3;</h6>
+
+<h6>3. prazo de doze meses: 10.2.9.2 e 10.3.9;</h6>
+
+<h6>4. prazo de dezoito meses: subitens 10.2.4; 10.2.5; 10.2.5.1 e 10.2.6;</h6>
+
+<h6>5. prazo de vinte e quatro meses: subitens 10.6.1.1; 10.7.2; 10.8.8 e 10.11.1.</h6>
+    </div>
+  <div>
+  <div> <p><center><img src="https://static.vecteezy.com/system/resources/previews/023/986/550/original/whatsapp-logo-whatsapp-logo-transparent-whatsapp-icon-transparent-free-free-png.png" width="25" heiht="25" >Telefones:</p></center></div>
+<center><p>Curitiba:  (41) 3512-5836</p>
+<p>Whatsapp:  (14) 99824-9869</p> 
+      <p>Fale conosco pelo Whatsapp
+Nosso horário de atendimento telefônico/fax é: de<table> segundas às sextas-feiras, das 09:00 às 11:45h e das 13:15 às 17:45h (horário do Sudeste do Brasil).</p>
+ </center></div>
+  <div class="white-bar">
+    <img src="https://ugc.production.linktr.ee/XUC9WVbTQyooYVdOCCPe_R3gGJ4bSku0UxI6m" width="110" heiht="110">
+    <img src="https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/brasao-da-republica/brasaooficialcolorido.png" width="110" heiht="110">
+    <h6><footer class="footer"><p>Wendel Github:Wendelm421.</p>
+<p>site com intuito educacional</p></h6>
+  </body>
+
+.title{
+  text-shadow: 2px 2px 0.3em ;
+}
+.body{
+  background-color: rgb(227, 218, 174);
+}
+.tabela{
+  margin-bottom:10px;
+  margin-left:13px;
+  align-items:center;
+}
+.text{
+  font-family:verdana;
+  font-size: 22px;
+}
+.cursor{
+cursor:pointer;
+  transition:background-color.3s;
+}
+.botao:active {
+  background-color:rgb(127, 118, 14);
+   paddin:10px;
+  width:95px;
+  heiht:95px;
+}
+.footer{
+  font-family:Arial;
+  background-color: rgb(198, 269, 226);
+}
+.ti{
+  text-decoration-line:line-through;
+  
+  display:flex;
+}
+.white-bar {
+    display: flex;
+    justify-content: left;
+    margin-left: 5px;
+  background-color: rgb(227, 218, 174);
+    padding: 10px;
+  border-bottom: 3px solid rgb(85, 35, 91);
+}
+.search-container form {
+    display: flex;
+}
+
+.search-container input[type="text"] {
+    padding: 10px;
+  width:700px;
+    font-size: 13px;
+  margin-right: 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.search-container button {
+    padding: 10px;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-left: none;
+    background-color: rgb(38, 135, 91);
+    color: white;
+    border-radius: 4px 4px 4px 4px;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #45a049;
+}
