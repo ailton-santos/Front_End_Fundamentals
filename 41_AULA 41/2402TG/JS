@@ -1,0 +1,85 @@
+<body>
+  <div class="container">
+    <h2>Formulário do Contato</h2>
+    <form id="contactform">
+      <label for="nameinput">nome:</label>
+      <input type="text" id="nameinput" name="name" required>
+           <label for="emailinput">Email:</label>
+      <input type="email" id="emailinput" name="email" required>
+      <label for="ageinput">Idade:</label>
+      <input type="number" id="ageinput" name="age" required>
+      <label for="messageinput">Mensagem:</label>
+      <textarea id="messageinput" name="message" rows="4"required></textarea>
+      <button type="submit">Enviar</button>
+      </form>
+
+  <div id="submissiondata" style="display:none;"></div>
+    <h3>Dados do envio</h3>
+    <p><strong><span id="submissionname">Nome:</span></strong></p>
+    <p><strong><span id="submissionemail">Email:</span></strong></p>
+    <p><strong><span id="submissionidade">Idade:</span></strong></p>
+    <p><strong><span id="submissionmessage">Menssagem:</span></strong></p>
+</body>
+
+CSS
+body{
+  font-family:verdana,arial;
+  background-color:#f0f0f0;
+}
+.container{
+  max-width:600px;
+  margin:50px auto;
+  padding:20px;
+  background-color:#fff;
+  border-radius:5px;
+  box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+}
+h2{
+  margin-top:0; 
+}
+label{
+  display:block;
+  margin-bottom: 5px;
+}
+input[type="text"],input[type="email"],textarea{
+  width:90%;
+  margin-bottom:10px;
+  border:1px solid #ccc;
+  border-radius:5px;
+  resize:none;
+}
+button {
+  display: block;
+  widht:90%; 
+  padding:10px;
+  background-color: #007bff;
+  color:#fff;
+  border: none;
+  border-radius: 5px;
+  cursor:pointer;
+ 
+}
+button:hover{
+  background-color:#0056b3;
+}
+#submissiondata{
+  margin-top:20px;
+  
+}
+JAVASCRIPT
+document.getElementById('contactform').addEventListener('submit',function(event){
+  event.preventDefault();
+  var name= document.getElementById('nameinput').value;
+  var email= document.getElementById('emailinput').value;
+  var age= document.getElementById('ageinput').value;
+  var message= document.getElementById('messageinput').value;
+  //Exibir mensagem
+  document.getElementById('submissionname').textcontent= name;
+  document.getElementById('submissionemail').textcontent= email;
+  document.getElementById('submissionidade').textcontent= age;
+  document.getElementById('submissionmessage').textcontent= message;
+  //Exibindo a area e escondendo form
+  document.getElementById('contactform').style.display='none';
+  document.getElementById('submissiondata').style.display='block';
+  
+});

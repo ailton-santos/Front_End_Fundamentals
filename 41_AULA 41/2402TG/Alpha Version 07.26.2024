@@ -1,0 +1,998 @@
+<html leng="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><doctype html="">
+
+  <meta name="viewport"; content="width=device-width"; inicial-scale=1.0">
+<title>Portal E.E Parque Piratininga II</title>
+<link rel="stylesheet" href="styles.css">
+  </head>
+  <body style="border:6px solid peachpuff">
+<div class="white-bar">
+   <div class="search-container">
+                               <p id="logo"class="animada"><span>GUIA TRABALHISTA</span></p>
+        <form action="/search" method="GET">
+            <input type="text" placeholder="Buscar..." name="search">
+            <button type="submit">🔍</button><button type="submit" id="botao">≡</button>
+        </form></div></div><div id="seguranca"><ul >
+  
+  <li><a href="https://www.guiatrabalhista.com.br/guia/clientes/login.">Guia Trabalhista</a></li>
+ <li><a href="https://www.guiatrabalhista.com.br/obras.htm">Obras Eletronicas</a></li>
+  <li><a href="https://www.portaltributario.com.br/downloads/">Download</a></li>
+  <li>
+    <a href="https://www.guiatrabalhista.com.br/boletim/boletimtrabalhista.htm">Boletim Trabalistas</a></li>
+    <li>
+    <a href="https://www.portaltributario.net.br/">Atendimento</a></li>
+</ul></div>
+                     <h5 id="data">Publicação
+
+D.O.U.
+
+Portaria MTb n.º 3.214, de 08 de junho de 1978
+
+06/07/78</h5>
+                                  <h4 id="titulo">NR 10 - SEGURANÇA EM INSTALAÇÕES E SERVIÇOS EM ELETRICIDADE
+
+
+
+<br>(Texto dado pela Portaria MTE n.º 598, de 07 de dezembro de 2004)</h4>
+                                         <table class="table">
+  <tr>
+    <th class="bordadatabela">Alterações/Atualizações</th><br><th>D.O.U.</th>
+  </tr>
+  <tr><td class="bordadatabela">SSMT n.º 12, de 06 de junho de 1983
+<br>
+Portaria MTE n.º 598, de 07 de dezembro de 2004
+<br>
+Portaria MTPS n.º 508, de 29 de abril de 2016
+<br>
+
+Portaria SEPRT n.º 915, de 30 de julho de 2019
+</td><td>
+14/06/83<br>
+08/09/04<br>
+02/05/16<br>
+31/07/19</td></tr>
+</table>
+    <details class="leis">
+        <summary><h5 class="letterline">10.1 - OBJETIVO E CAMPO DE APLICAÇÃO</h5></summary>
+        <p><b>10.1.1</b> Esta Norma Regulamentadora - NR estabelece os requisitos e condições mínimas objetivando a implementação de medidas de controle e sistemas preventivos, de forma a garantir a segurança e a saúde dos trabalhadores que, direta ou indiretamente, interajam em instalações elétricas e serviços com eletricidade.<br>
+<b>10.1.2</b> Esta NR se aplica às fases de geração, transmissão, distribuição e consumo, incluindo as etapas de projeto, construção, montagem, operação, manutenção das instalações elétricas e quaisquer trabalhos realizados nas suas proximidades, observando-se as normas técnicas oficiais estabelecidas pelos órgãos competentes e, na ausência ou omissão destas, as normas internacionais cabíveis.</p>
+                               </details>
+    <details class="leis">
+        <summary><h5 class="letterline">10.2 - MEDIDAS DE CONTROLE</h5></summary>
+        <p><b>10.2.1</b> Em todas as intervenções em instalações elétricas devem ser adotadas medidas preventivas de controle do risco elétrico e de outros riscos adicionais, mediante técnicas de análise de risco, de forma a garantir a segurança e a saúde no trabalho.
+<br><b>10.2.2</b> As medidas de controle adotadas devem integrar-se às demais iniciativas da empresa, no âmbito da preservação da segurança, da saúde e do meio ambiente do trabalho.
+<br>
+<b>10.2.3</b> As empresas estão obrigadas a manter esquemas unifilares atualizados das instalações elétricas dos seus estabelecimentos com as especificações do sistema de aterramento e demais equipamentos e dispositivos de proteção. <br>
+<b>10.2.4</b> Os estabelecimentos com carga instalada superior a 75 kW devem constituir e manter o Prontuário de Instalações Elétricas, contendo, além do disposto no subitem 10.2.3, no mínimo:<br>
+
+
+
+a) conjunto de procedimentos e instruções técnicas e administrativas de segurança e saúde, implantadas e relacionadas a esta NR e descrição das medidas de controle existentes;<br>
+
+b) documentação das inspeções e medições do sistema de proteção contra descargas atmosféricas e aterramentos elétricos;<br>
+
+c) especificação dos equipamentos de proteção coletiva e individual e o ferramental, aplicáveis conforme determina esta NR;<br>
+
+d) documentação comprobatória da qualificação, habilitação, capacitação, autorização dos trabalhadores e dos treinamentos realizados;<br>
+
+e) resultados dos testes de isolação elétrica realizados em equipamentos de proteção individual e coletiva;<br>
+
+f) certificações dos equipamentos e materiais elétricos em áreas classificadas;<br>
+
+g) relatório técnico das inspeções atualizadas com recomendações, cronogramas de adequações, contemplando as alíneas de “a” a “f”.<br>
+
+
+
+<b>10.2.5</b> As empresas que operam em instalações ou equipamentos integrantes do sistema elétrico de potência devem constituir prontuário com o conteúdo do item 10.2.4 e acrescentar ao prontuário os documentos a seguir listados:<br>
+
+
+
+a) descrição dos procedimentos para emergências;<br>
+
+b) certificações dos equipamentos de proteção coletiva e individual;<br>
+
+
+
+<b>10.2.5.1</b> As empresas que realizam trabalhos em proximidade do Sistema Elétrico de Potência devem constituir prontuário contemplando as alíneas “a”, “c”, “d” e “e”, do item 10.2.4 e alíneas “a” e “b” do item 10.2.5.<br>
+
+
+
+<b>10.2.6</b> O Prontuário de Instalações Elétricas deve ser organizado e mantido atualizado pelo empregador ou pessoa formalmente designada pela empresa, devendo permanecer à disposição dos trabalhadores envolvidos nas instalações e serviços em eletricidade.<br>
+
+
+
+<b>10.2.7</b> Os documentos técnicos previstos no Prontuário de Instalações Elétricas devem ser elaborados por profissional legalmente habilitado.
+
+</p>
+                               </details>
+                                       <details class="leis"><summary><h5 class="letterline"><b>10.2.8</b> - MEDIDAS DE PROTEÇÃO COLETIVA</h5></summary><p><b>10.2.8.1</b> Em todos os serviços executados em instalações elétricas devem ser previstas e adotadas, prioritariamente, medidas de proteção coletiva aplicáveis, mediante procedimentos, às atividades a serem desenvolvidas, de forma a garantir a segurança e a saúde dos trabalhadores.<br>
+
+
+
+<b>10.2.8.2</b> As medidas de proteção coletiva compreendem, prioritariamente, a desenergização elétrica conforme estabelece esta NR e, na sua impossibilidade, o emprego de tensão de segurança.<br>
+
+
+
+<b>10.2.8.2.1</b> Na impossibilidade de implementação do estabelecido no subitem 10.2.8.2., devem ser utilizadas outras medidas de proteção coletiva, tais como: isolação das partes vivas, obstáculos, barreiras, sinalização, sistema de seccionamento automático de alimentação, bloqueio do religamento automático.<br>
+
+
+
+<b>10.2.8.3</b> O aterramento das instalações elétricas deve ser executado conforme regulamentação estabelecida pelos órgãos competentes e, na ausência desta, deve atender às Normas Internacionais vigentes.
+
+</p></details><details class="leis"><summary><h5 class="letterline">10.2.9 - MEDIDAS DE PROTEÇÃO INDIVIDUAL</h5></summary><p><b>10.2.9.1</b> Nos trabalhos em instalações elétricas, quando as medidas de proteção coletiva forem tecnicamente inviáveis ou insuficientes para controlar os riscos, devem ser adotados equipamentos de proteção individual específicos e adequados às atividades desenvolvidas, em atendimento ao disposto na NR 6.<br>
+
+
+
+<b>10.2.9.2</b> As vestimentas de trabalho devem ser adequadas às atividades, devendo contemplar a condutibilidade, inflamabilidade e influências eletromagnéticas.<br>
+
+
+
+<b>10.2.9.3</b> É vedado o uso de adornos pessoais nos trabalhos com instalações elétricas ou em suas proximidades.
+
+</p></details><details class="leis"><summary><h5 class="letterline">10.3 - SEGURANÇA EM PROJETOS</h5></summary><p><b>10.3.1</b> É obrigatório que os projetos de instalações elétricas especifiquem dispositivos de desligamento de circuitos que possuam recursos para impedimento de reenergização, para sinalização de advertência com indicação da condição operativa.<br>
+
+
+
+<b>10.3.2</b> O projeto elétrico, na medida do possível, deve prever a instalação de dispositivo de seccionamento de ação simultânea, que permita a aplicação de impedimento de reenergização do circuito.<br>
+
+
+
+<b>10.3.3</b> O projeto de instalações elétricas deve considerar o espaço seguro, quanto ao dimensionamento e a localização de seus componentes e as influências externas, quando da operação e da realização de serviços de construção e manutenção.<br>
+
+
+
+<b>10.3.3.1</b> Os circuitos elétricos com finalidades diferentes, tais como: comunicação, sinalização, controle e tração elétrica devem ser identificados e instalados separadamente, salvo quando o desenvolvimento tecnológico permitir compartilhamento, respeitadas as definições de projetos.<br>
+
+
+
+<b>10.3.4</b> O projeto deve definir a configuração do esquema de aterramento, a obrigatoriedade ou não da interligação entre o condutor neutro e o de proteção e a conexão à terra das partes condutoras não destinadas à condução da eletricidade.<br>
+
+
+<b>10.3.5</b> Sempre que for tecnicamente viável e necessário, devem ser projetados dispositivos de seccionamento que incorporem recursos fixos de equipotencialização e aterramento do circuito seccionado.<br>
+
+
+
+<b>10.3.6</b> Todo projeto deve prever condições para a adoção de aterramento temporário.<br>
+
+
+
+<b>10.3.7</b> O projeto das instalações elétricas deve ficar à disposição dos trabalhadores autorizados, das autoridades competentes e de outras pessoas autorizadas pela empresa e deve ser mantido atualizado.<br>
+
+
+
+<b>10.3.8</b> O projeto elétrico deve atender ao que dispõem as Normas Regulamentadoras de Saúde e Segurança no Trabalho, as regulamentações técnicas oficiais estabelecidas, e ser assinado por profissional legalmente habilitado.<br>
+
+
+
+<b>10.3.9</b> O memorial descritivo do projeto deve conter, no mínimo, os seguintes itens de segurança:<br>
+
+
+
+a) especificação das características relativas à proteção contra choques elétricos, queimaduras e outros riscos adicionais;<br>
+
+b) indicação de posição dos dispositivos de manobra dos circuitos elétricos: (Verde - “D”, desligado e Vermelho - “L”, ligado);<br>
+
+c) descrição do sistema de identificação de circuitos elétricos e equipamentos, incluindo dispositivos de manobra, de controle, de proteção, de intertravamento, dos condutores e os próprios equipamentos e estruturas, definindo como tais indicações devem ser aplicadas fisicamente nos componentes das instalações;<br>
+
+d) recomendações de restrições e advertências quanto ao acesso de pessoas aos componentes das instalações;<br>
+
+e) precauções aplicáveis em face das influências externas;<br>
+
+f) o princípio funcional dos dispositivos de proteção, constantes do projeto, destinados à segurança das pessoas;<br>
+
+g) descrição da compatibilidade dos dispositivos de proteção com a instalação elétrica.<br>
+
+
+
+<b>10.3.10</b> Os projetos devem assegurar que as instalações proporcionem aos trabalhadores iluminação adequada e uma posição de trabalho segura, de acordo com a NR 17 - Ergonomia.</p></details><details class="leis"><summary><h5 class="letterline">10.4 - SEGURANÇA NA CONSTRUÇÃO, MONTAGEM, OPERAÇÃO E MANUTENÇÃO
+</h5></summary><p><b>10.4.1</b> As instalações elétricas devem ser construídas, montadas, operadas, reformadas, ampliadas, reparadas e inspecionadas de forma a garantir a segurança e a saúde dos trabalhadores e dos usuários, e serem supervisionadas por profissional autorizado, conforme dispõe esta NR.<br>
+
+
+
+<b>10.4.2</b> Nos trabalhos e nas atividades referidas devem ser adotadas medidas preventivas destinadas ao controle dos riscos adicionais, especialmente quanto a altura, confinamento, campos elétricos e magnéticos, explosividade, umidade, poeira, fauna e flora e outros agravantes, adotando-se a sinalização de segurança.<br>
+
+
+
+<b>10.4.3</b> Nos locais de trabalho só podem ser utilizados equipamentos, dispositivos e ferramentas elétricas compatíveis com a instalação elétrica existente, preservando-se as características de proteção, respeitadas as recomendações do fabricante e as influências externas.<br>
+
+
+
+<b>10.4.3.1</b> Os equipamentos, dispositivos e ferramentas que possuam isolamento elétrico devem estar adequados às tensões envolvidas, e serem inspecionados e testados de acordo com as regulamentações existentes ou recomendações dos fabricantes.<br>
+
+
+
+<b>10.4.4</b> As instalações elétricas devem ser mantidas em condições seguras de funcionamento e seus sistemas de proteção devem ser inspecionados e controlados periodicamente, de acordo com as regulamentações existentes e definições de projetos.<br>
+
+
+
+<b>10.4.4.1</b> Os locais de serviços elétricos, compartimentos e invólucros de equipamentos e instalações elétricas são exclusivos para essa finalidade, sendo expressamente proibido utilizá-los para armazenamento ou guarda de quaisquer objetos.<br>
+
+
+
+<b>10.4.5</b> Para atividades em instalações elétricas deve ser garantida ao trabalhador iluminação adequada e uma posição de trabalho segura, de acordo com a NR 17 - Ergonomia, de forma a permitir que ele disponha dos membros superiores livres para a realização das tarefas.<br>
+
+
+
+<b>10.4.6</b> Os ensaios e testes elétricos laboratoriais e de campo ou comissionamento de instalações elétricas devem atender à regulamentação estabelecida nos itens 10.6 e 10.7, e somente podem ser realizados por trabalhadores que atendam às condições de qualificação, habilitação, capacitação e autorização estabelecidas nesta NR.</p></details><details class="leis">
+        <summary><h5 class="letterline">10.5 - SEGURANÇA EM INSTALAÇÕES ELÉTRICAS DESENERGIZADAS</h5></summary>
+        <p><b>10.5.1</b> Somente serão consideradas desenergizadas as instalações elétricas liberadas para trabalho, mediante os procedimentos apropriados, obedecida a seqüência abaixo:<br>
+
+
+
+a) seccionamento;<br>
+
+b) impedimento de reenergização;<br>
+
+c) constatação da ausência de tensão;<br>
+
+d) instalação de aterramento temporário com equipotencialização dos condutores dos circuitos;<br>
+
+e) proteção dos elementos energizados existentes na zona controlada (Anexo II);
+
+(Alterada pela Portaria MTPS n.º 508, de 29 de abril de 2016)<br>
+
+f) instalação da sinalização de impedimento de reenergização.<br>
+
+
+
+<b>10.5.2</b> O estado de instalação desenergizada deve ser mantido até a autorização para reenergização, devendo ser reenergizada respeitando a seqüência de procedimentos abaixo:<br>
+
+
+
+a) retirada das ferramentas, utensílios e equipamentos;<br>
+
+b) retirada da zona controlada de todos os trabalhadores não envolvidos no processo de reenergização;<br>
+
+c) remoção do aterramento temporário, da equipotencialização e das proteções adicionais;<br>
+
+d) remoção da sinalização de impedimento de reenergização;<br>
+
+e) destravamento, se houver, e religação dos dispositivos de seccionamento<br>
+
+
+
+<b>10.5.3</b> As medidas constantes das alíneas apresentadas nos itens 10.5.1 e 10.5.2 podem ser alteradas, substituídas, ampliadas ou eliminadas, em função das peculiaridades de cada situação, por profissional legalmente habilitado, autorizado e mediante justificativa técnica previamente formalizada, desde que seja mantido o mesmo nível de segurança originalmente preconizado.<br>
+
+ 
+
+<b>10.5.4</b> Os serviços a serem executados em instalações elétricas desligadas, mas com possibilidade de energização, por qualquer meio ou razão, devem atender ao que estabelece o disposto no item 10.6.</p></details><details class="leis">
+        <summary><h5 class="letterline">10.6 - SEGURANÇA EM INSTALAÇÕES ELÉTRICAS ENERGIZADAS</h5></summary>
+        <p><b>10.6.1</b> As intervenções em instalações elétricas com tensão igual ou superior a 50 Volts em corrente alternada ou superior a 120 Volts em corrente contínua somente podem ser realizadas por trabalhadores que atendam ao que estabelece o item 10.8 desta Norma.<br>
+
+ 
+
+<b>10.6.1.1</b> Os trabalhadores de que trata o item anterior devem receber treinamento de segurança para trabalhos com instalações elétricas energizadas, com currículo mínimo, carga horária e demais determinações estabelecidas no Anexo III desta NR. (Alterado pela Portaria MTPS n.º 508, de 29 de abril de 2016)<br>
+
+ 
+
+<b>10.6.1.2</b> As operações elementares como ligar e desligar circuitos elétricos, realizadas em baixa tensão, com materiais e equipamentos elétricos em perfeito estado de conservação, adequados para operação, podem ser realizadas por qualquer pessoa não advertida.<br>
+
+
+
+<b>10.6.2</b> Os trabalhos que exigem o ingresso na zona controlada devem ser realizados mediante procedimentos específicos respeitando as distâncias previstas no Anexo II. (Alterado pela Portaria MTPS n.º 508, de 29 de abril de 2016)<br>
+
+ 
+
+<b>10.6.3</b> Os serviços em instalações energizadas, ou em suas proximidades devem ser suspensos de imediato na iminência de ocorrência que possa colocar os trabalhadores em perigo.<br>
+
+
+
+<b>10.6.4</b> Sempre que inovações tecnológicas forem implementadas ou para a entrada em operações de novas instalações ou equipamentos elétricos devem ser previamente elaboradas análises de risco, desenvolvidas com circuitos desenergizados, e respectivos procedimentos de trabalho.<br>
+
+
+
+<b>10.6.5</b> O responsável pela execução do serviço deve suspender as atividades quando verificar situação ou condição de risco não prevista, cuja eliminação ou neutralização imediata não seja possível.
+</p></details><details class="leis">
+        <summary><h5 class="letterline">10.7 - TRABALHOS ENVOLVENDO ALTA TENSÃO (AT)</h5></summary>
+        <p><b>10.7.1</b> Os trabalhadores que intervenham em instalações elétricas energizadas com alta tensão, que exerçam suas atividades dentro dos limites estabelecidos como zonas controladas e de risco, conforme Anexo II, devem atender ao disposto no item 10.8 desta NR. (Alterado pela Portaria MTPS n.º 508, de 29 de abril de 2016)<br>
+<br>
+<b>10.7.2</b> Os trabalhadores de que trata o item 10.7.1 devem receber treinamento de segurança, específico em segurança no Sistema Elétrico de Potência (SEP) e em suas proximidades, com currículo mínimo, carga horária e demais determinações estabelecidas no Anexo III desta NR. (Alterado pela Portaria MTPS n.º 508, de 29 de abril de 2016)<br>
+<br>
+<b>10.7.3</b> Os serviços em instalações elétricas energizadas em AT, bem como aqueles executados no Sistema Elétrico de Potência - SEP, não podem ser realizados individualmente.<br>
+<br>
+<b>10.7.4</b> Todo trabalho em instalações elétricas energizadas em AT, bem como aquelas que interajam com o SEP, somente pode ser realizado mediante ordem de serviço específica para data e local, assinada por superior responsável pela área.<br>
+<br>
+<b>10.7.5</b> Antes de iniciar trabalhos em circuitos energizados em AT, o superior imediato e a equipe, responsáveis pela execução do serviço, devem realizar uma avaliação prévia, estudar e planejar as atividades e ações a serem desenvolvidas de forma a atender os princípios técnicos básicos e as melhores técnicas de segurança em eletricidade aplicáveis ao serviço.<br>
+<br>
+<b>10.7.6</b> Os serviços em instalações elétricas energizadas em AT somente podem ser realizados quando houver procedimentos específicos, detalhados e assinados por profissional autorizado.<br>
+<br>
+<b>10.7.7</b> A intervenção em instalações elétricas energizadas em AT dentro dos limites estabelecidos como zona de risco, conforme Anexo II desta NR, somente pode ser realizada mediante a desativação, também conhecida como bloqueio, dos conjuntos e dispositivos de religamento automático do circuito, sistema ou equipamento. (Alterado pela Portaria MTPS n.º 508, de 29 de abril de 2016)<br>
+<br>
+<b>10.7.7.1</b> Os equipamentos e dispositivos desativados devem ser sinalizados com identificação da condição de desativação, conforme procedimento de trabalho específico padronizado.<br>
+<br>
+<b>10.7.8</b> Os equipamentos, ferramentas e dispositivos isolantes ou equipados com materiais isolantes, destinados ao trabalho em alta tensão, devem ser submetidos a testes elétricos ou ensaios de laboratório periódicos, obedecendo-se as especificações do fabricante, os procedimentos da empresa e na ausência desses, anualmente.<br>
+<br>
+<b>10.7.9</b> Todo trabalhador em instalações elétricas energizadas em AT, bem como aqueles envolvidos em atividades no SEP devem dispor de equipamento que permita a comunicação permanente com os demais membros da equipe ou com o centro de operação durante a realização do serviço.<br>
+</p>
+                               </details>    <details class="leis">
+        <summary><h5 class="letterline">10.8 - HABILITAÇÃO, QUALIFICAÇÃO, CAPACITAÇÃO E AUTORIZAÇÃO DOS TRABALHADORES
+</h5></summary>
+        <p>
+<b>10.8.1</b> É considerado trabalhador qualificado aquele que comprovar conclusão de curso específico na área elétrica reconhecido pelo Sistema Oficial de Ensino.<br>
+<br>
+<b>10.8.2</b> É considerado profissional legalmente habilitado o trabalhador previamente qualificado e com registro no competente conselho de classe.<br>
+<br>
+<b>10.8.3</b> É considerado trabalhador capacitado aquele que atenda às seguintes condições, simultaneamente:<br>
+<br>
+a) receba capacitação sob orientação e responsabilidade de profissional habilitado e autorizado; e<br>
+<br>
+b) trabalhe sob a responsabilidade de profissional habilitado e autorizado.<br>
+<br>
+<b>10.8.3.1</b> A capacitação só terá validade para a empresa que o capacitou e nas condições estabelecidas pelo profissional habilitado e autorizado responsável pela capacitação.<br>
+<br>
+<b>10.8.4</b> São considerados autorizados os trabalhadores qualificados ou capacitados e os profissionais habilitados, com anuência formal da empresa.<br>
+<br>
+<b>10.8.5</b> A empresa deve estabelecer sistema de identificação que permita a qualquer tempo conhecer a abrangência da autorização de cada trabalhador, conforme o item 10.8.4.<br>
+<br>
+<b>10.8.6</b> Os trabalhadores autorizados a trabalhar em instalações elétricas devem ter essa condição consignada no sistema de registro de empregado da empresa.<br>
+<br>
+<b>10.8.7</b> Os trabalhadores autorizados a intervir em instalações elétricas devem ser submetidos a exame de saúde compatível com as atividades a serem desenvolvidas, realizado em conformidade com a NR 7 e registrado em seu prontuário médico.<br>
+<br>
+<b>10.8.8</b> Os trabalhadores autorizados a intervir em instalações elétricas devem possuir treinamento específico sobre os riscos decorrentes do emprego da energia elétrica e as principais medidas de prevenção de acidentes em instalações elétricas, de acordo com o estabelecido no Anexo III desta NR. (Alterado pela Portaria MTPS n.º 508, de 29 de abril de 2016)<br>
+<br>
+<b>10.8.8.1</b> A empresa concederá autorização na forma desta NR aos trabalhadores capacitados ou qualificados e aos profissionais habilitados que tenham participado com avaliação e aproveitamento satisfatórios dos cursos constantes do Anexo III desta NR. (Alterado pela Portaria MTPS n.º 508, de 29 de abril de 2016)<br>
+<br>
+<b>10.8.8.2</b> Deve ser realizado um treinamento de reciclagem bienal e sempre que ocorrer alguma das situações a seguir:<br>
+<br>
+a) troca de função ou mudança de empresa;<br>
+<br>
+b) retorno de afastamento ao trabalho ou inatividade, por período superior a três meses;<br>
+<br>
+c) modificações significativas nas instalações elétricas ou troca de métodos, processos e organização do trabalho.<br>
+<br>
+<b>10.8.8.3</b> A carga horária e o conteúdo programático dos treinamentos de reciclagem destinados ao atendimento das alíneas “a”, “b” e “c” do item 10.8.8.2 devem atender as necessidades da situação que o motivou.<br>
+<br>
+<b>10.8.8.4</b> Os trabalhos em áreas classificadas devem ser precedidos de treinamento especifico de acordo com risco envolvido.<br>
+<br>
+<b>10.8.9</b> Os trabalhadores com atividades não relacionadas às instalações elétricas desenvolvidas em zona livre e na vizinhança da zona controlada, conforme define esta NR, devem ser instruídos formalmente com conhecimentos que permitam identificar e avaliar seus possíveis riscos e adotar as precauções cabíveis.<br>
+</p>
+                               </details>   <details class="leis">
+        <summary><h5 class="letterline">10.9 - PROTEÇÃO CONTRA INCÊNDIO E EXPLOSÃO
+
+</h5></summary>
+        <p><b>10.9.1</b> As áreas onde houver instalações ou equipamentos elétricos devem ser dotadas de proteção contra incêndio e explosão, conforme dispõe a NR 23 - Proteção Contra Incêndios.<br>
+<br>
+<b>10.9.2</b> Os materiais, peças, dispositivos, equipamentos e sistemas destinados à aplicação em instalações elétricas de ambientes com atmosferas potencialmente explosivas devem ser avaliados quanto à sua conformidade, no âmbito do Sistema Brasileiro de Certificação.<br>
+<br>
+<b>10.9.3</b> Os processos ou equipamentos susceptíveis de gerar ou acumular eletricidade estática devem dispor de proteção específica e dispositivos de descarga elétrica.<br>
+<br>
+<b>10.9.4</b> Nas instalações elétricas de áreas classificadas ou sujeitas a risco acentuado de incêndio ou explosões, devem ser adotados dispositivos de proteção, como alarme e seccionamento automático para prevenir sobretensões, sobrecorrentes, falhas de isolamento, aquecimentos ou outras condições anormais de operação.<br>
+<br>
+<b>10.9.5</b> Os serviços em instalações elétricas nas áreas classificadas somente poderão ser realizados mediante permissão para o trabalho com liberação formalizada, conforme estabelece o item 10.5 ou supressão do agente de risco que determina a classificação da área.<br>
+</p>
+                               </details><details class="leis">
+        <summary><h5 class="letterline">10.10 - SINALIZAÇÃO DE SEGURANÇA</h5></summary>
+        <p><b>10.10.1</b> Nas instalações e serviços em eletricidade deve ser adotada sinalização adequada de segurança, destinada à advertência e à identificação, obedecendo ao disposto na NR-26 - Sinalização de Segurança, de forma a atender, dentre outras, as situações a seguir:<br>
+<br>
+a) identificação de circuitos elétricos;<br>
+<br>
+b) travamentos e bloqueios de dispositivos e sistemas de manobra e comandos;<br>
+<br>
+c) restrições e impedimentos de acesso;<br>
+<br>
+d) delimitações de áreas;<br>
+<br>
+e) sinalização de áreas de circulação, de vias públicas, de veículos e de movimentação de cargas;<br>
+<br>
+f) sinalização de impedimento de energização;<br>
+<br>
+g) identificação de equipamento ou circuito impedido.<br>
+</p>
+                               </details><details class="leis">
+        <summary><h5 class="letterline">10.11 - PROCEDIMENTOS DE TRABALHO</h5></summary>
+        <p><b>10.11.1</b> Os serviços em instalações elétricas devem ser planejados e realizados em conformidade com procedimentos de trabalho específicos, padronizados, com descrição detalhada de cada tarefa, passo a passo, assinados por profissional que atenda ao que estabelece o item 10.8 desta NR.<br>
+<br>
+<b>10.11.2</b> Os serviços em instalações elétricas devem ser precedidos de ordens de serviço especificas, aprovadas por trabalhador autorizado, contendo, no mínimo, o tipo, a data, o local e as referências aos procedimentos de trabalho a serem adotados.<br>
+<br>
+<b>10.11.3</b> Os procedimentos de trabalho devem conter, no mínimo, objetivo, campo de aplicação, base técnica, competências e responsabilidades, disposições gerais, medidas de controle e orientações finais.<br>
+<br>
+<b>10.11.4</b> Os procedimentos de trabalho, o treinamento de segurança e saúde e a autorização de que trata o item 10.8 devem ter a participação em todo processo de desenvolvimento do Serviço Especializado de Engenharia de Segurança e Medicina do Trabalho - SESMT, quando houver.<br>
+<br>
+<b>10.11.5</b> A autorização referida no item 10.8 deve estar em conformidade com o treinamento ministrado, previsto no Anexo III desta NR. (Alterado pela Portaria MTPS n.º 508, de 29 de abril de 2016)<br>
+<br>
+<b>10.11.6</b> Toda equipe deverá ter um de seus trabalhadores indicado e em condições de exercer a supervisão e condução dos trabalhos.<br>
+<br>
+<b>10.11.7</b> Antes de iniciar trabalhos em equipe os seus membros, em conjunto com o responsável pela execução do serviço, devem realizar uma avaliação prévia, estudar e planejar as atividades e ações a serem desenvolvidas no local, de forma a atender os princípios técnicos básicos e as melhores técnicas de segurança aplicáveis ao serviço.<br>
+<br>
+<b>10.11.8</b> A alternância de atividades deve considerar a análise de riscos das tarefas e a competência dos trabalhadores envolvidos, de forma a garantir a segurança e a saúde no trabalho.<br>
+</p>
+                               </details><details class="leis">
+        <summary><h5 class="letterline">10.12 - SITUAÇÃO DE EMERGÊNCIA</h5></summary>
+        <p><b>10.12.1</b> As ações de emergência que envolvam as instalações ou serviços com eletricidade devem constar do plano de emergência da empresa.<br>
+<br>
+<b>10.12.2</b> Os trabalhadores autorizados devem estar aptos a executar o resgate e prestar primeiros socorros a acidentados, especialmente por meio de reanimação cardio-respiratória.<br>
+<br>
+<b>10.12.3</b> A empresa deve possuir métodos de resgate padronizados e adequados às suas atividades, disponibilizando os meios para a sua aplicação.<br>
+<br>
+<b>10.12.4</b> Os trabalhadores autorizados devem estar aptos a manusear e operar equipamentos de prevenção e combate a incêndio existentes nas instalações elétricas.<br>
+</p>
+                               </details><details class="leis">
+        <summary><h5 class="letterline">10.13 - RESPONSABILIDADES</h5></summary>
+        ❌<a class="taxado"><b>10.13.1</b>As responsabilidades quanto ao cumprimento desta NR são solidárias aos contratantes e contratados envolvidos.</a> (Revogado pela Portaria SEPRT n.º 915, de 30 de julho de 2019)<p>
+<b>10.13.2</b> É de responsabilidade dos contratantes manter os trabalhadores informados sobre os riscos a que estão expostos, instruindo-os quanto aos procedimentos e medidas de controle contra os riscos elétricos a serem adotados.<br>
+<br>
+<b>10.13.3</b> Cabe à empresa, na ocorrência de acidentes de trabalho envolvendo instalações e serviços em eletricidade, propor e adotar medidas preventivas e corretivas.<br>
+<br>
+<b>10.13.4</b> Cabe aos trabalhadores:<br>
+<br>
+a) zelar pela sua segurança e saúde e a de outras pessoas que possam ser afetadas por suas ações ou omissões no trabalho;<br>
+<br>
+b) responsabilizar-se junto com a empresa pelo cumprimento das disposições legais e regulamentares, inclusive quanto aos procedimentos internos de segurança e saúde; e<br>
+<br>
+c) comunicar, de imediato, ao responsável pela execução do serviço as situações que considerar de risco para sua segurança e saúde e a de outras pessoas.<br>
+</p>
+                               </details><details class="leis">
+        <summary><h5 class="letterline">10.14 - DISPOSIÇÕES FINAIS</h5></summary>
+         ❌<a class="taxado"><b>10.14.1</b> Os trabalhadores devem interromper suas tarefas exercendo o direito de recusa, sempre que constatarem evidências de riscos graves e iminentes para sua segurança e saúde ou a de outras pessoas, comunicando imediatamente o fato a seu superior hierárquico, que diligenciará as medidas cabíveis.</a>(Revogado pela Portaria SEPRT n.º 915, de 30 de julho de 2019)<p>
+<b>10.14.2</b> As empresas devem promover ações de controle de riscos originados por outrem em suas instalações elétricas e oferecer, de imediato, quando cabível, denúncia aos órgãos competentes.<br>
+<br>
+<b>10.14.3</b> Na ocorrência do não cumprimento das normas constantes nesta NR, o MTE adotará as providências estabelecidas na NR-03.<br>
+<br>
+<b>10.14.4</b> A documentação prevista nesta NR deve estar permanentemente à disposição dos trabalhadores que atuam em serviços e instalações elétricas, respeitadas as abrangências, limitações e interferências nas tarefas.<br>
+<br>
+<b>10.14.5</b> A documentação prevista nesta NR deve estar, permanentemente, à disposição das autoridades competentes. (Revogado pela Portaria SEPRT n.º 915, de 30 de julho de 2019)<br>
+<br>
+<b>10.14.6</b> Esta NR não é aplicável a instalações elétricas alimentadas por extra-baixa tensão.<br>
+</p>
+                               </details>
+ <p class="textbody"><b>GLOSSÁRIO</b><br>
+
+<b>Alta Tensão (AT):</b> tensão superior a 1000 volts em corrente alternada ou 1500 volts em corrente contínua, entre fases ou entre fase e terra.<br>
+
+
+
+<b>Área Classificada:</b> local com potencialidade de ocorrência de atmosfera explosiva.<br>
+
+
+
+<b>Aterramento Elétrico Temporário:</b> ligação elétrica efetiva confiável e adequada intencional à terra, destinada a garantir a equipotencialidade e mantida continuamente durante a intervenção na instalação elétrica.<br>
+
+
+
+<b>Atmosfera Explosiva:</b> mistura com o ar, sob condições atmosféricas, de substâncias inflamáveis na forma de gás, vapor, névoa, poeira ou fibras, na qual após a ignição a combustão se propaga.<br>
+
+
+
+<b>Baixa Tensão (BT):</b> tensão superior a 50 volts em corrente alternada ou 120 volts em corrente contínua e igual ou inferior a 1000 volts em corrente alternada ou 1500 volts em corrente contínua, entre fases ou entre fase e terra.<br>
+
+
+
+<b>Barreira:</b> dispositivo que impede qualquer contato com partes energizadas das instalações elétricas.<br>
+
+
+
+<b>Direito de Recusa:</b> instrumento que assegura ao trabalhador a interrupção de uma atividade de trabalho por considerar que ela envolve grave e iminente risco para sua segurança e saúde ou de outras pessoas.<br>
+
+
+
+<b>Equipamento de Proteção Coletiva (EPC):</b> dispositivo, sistema, ou meio, fixo ou móvel de abrangência coletiva, destinado a preservar a integridade física e a saúde dos trabalhadores, usuários e terceiros.<br>
+
+
+
+<b>Equipamento Segregado:</b> equipamento tornado inacessível por meio de invólucro ou barreira.<br>
+
+
+
+<b>Extra-Baixa Tensão (EBT):</b> tensão não superior a 50 volts em corrente alternada ou 120 volts em corrente contínua, entre fases ou entre fase e terra.<br>
+
+
+
+<b>Influências Externas:</b> variáveis que devem ser consideradas na definição e seleção de medidas de proteção para segurança das pessoas e desempenho dos componentes da instalação.<br>
+
+
+
+<b>Instalação Elétrica:</b> conjunto das partes elétricas e não elétricas associadas e com características coordenadas entre si, que são necessárias ao funcionamento de uma parte determinada de um sistema elétrico.<br>
+
+
+
+<b>Instalação Liberada para Serviços (BT/AT):</b> aquela que garanta as condições de segurança ao trabalhador por meio de procedimentos e equipamentos adequados desde o início até o final dos trabalhos e liberação para uso.<br>
+
+
+
+<b>Impedimento de Reenergização:</b> condição que garante a não energização do circuito através de recursos e procedimentos apropriados, sob controle dos trabalhadores envolvidos nos serviços.<br>
+
+
+
+<b>Invólucro:</b> envoltório de partes energizadas destinado a impedir qualquer contato com partes internas.<br>
+
+
+
+<b>Isolamento Elétrico:</b> processo destinado a impedir a passagem de corrente elétrica, por interposição de materiais isolantes.<br>
+
+
+
+<b>Obstáculo:</b> elemento que impede o contato acidental, mas não impede o contato direto por ação deliberada.<br>
+
+
+
+<b>Perigo:</b> situação ou condição de risco com probabilidade de causar lesão física ou dano à saúde das pessoas por ausência de medidas de controle.<br>
+
+
+
+<b>Pessoa Advertida:</b> pessoa informada ou com conhecimento suficiente para evitar os perigos da eletricidade.<br>
+
+
+
+<b>Procedimento:</b> seqüência de operações a serem desenvolvidas para realização de um determinado trabalho, com a inclusão dos meios materiais e humanos, medidas de segurança e circunstâncias que impossibilitem sua realização.<br>
+
+
+
+<b>Prontuário:</b> sistema organizado de forma a conter uma memória dinâmica de informações pertinentes às instalações e aos trabalhadores.<br>
+
+
+
+<b>Risco:</b> capacidade de uma grandeza com potencial para causar lesões ou danos à saúde das pessoas.<br>
+
+
+
+<b>Riscos Adicionais:</b> todos os demais grupos ou fatores de risco, além dos elétricos, específicos de cada ambiente ou processos de Trabalho que, direta ou indiretamente, possam afetar a segurança e a saúde no trabalho.<br>
+
+
+
+<b>Sinalização:</b> procedimento padronizado destinado a orientar, alertar, avisar e advertir.<br>
+
+
+
+<b>Sistema Elétrico:</b> circuito ou circuitos elétricos inter-relacionados destinados a atingir um determinado objetivo.<br>
+
+
+
+<b>Sistema Elétrico de Potência (SEP):</b> conjunto das instalações e equipamentos destinados à geração, transmissão e distribuição de energia elétrica até a medição, inclusive.<br>
+
+
+
+<b>Tensão de Segurança:</b> extra baixa tensão originada em uma fonte de segurança.<br>
+
+
+
+<b>Trabalho em Proximidade:</b> trabalho durante o qual o trabalhador pode entrar na zona controlada, ainda que seja com uma parte do seu corpo ou com extensões condutoras, representadas por materiais, ferramentas ou equipamentos que manipule.<br>
+
+
+
+<b>Travamento:</b> ação destinada a manter, por meios mecânicos, um dispositivo de manobra fixo numa determinada posição, de forma a impedir uma operação não autorizada.<br>
+
+
+
+<b>Zona de Risco:</b> entorno de parte condutora energizada, não segregada, acessível inclusive acidentalmente, de dimensões estabelecidas de acordo com o nível de tensão, cuja aproximação só é permitida a profissionais autorizados e com a adoção de técnicas e instrumentos apropriados de trabalho.<br>
+
+
+
+<b>Zona Controlada:</b> entorno de parte condutora energizada, não segregada, acessível, de dimensões estabelecidas de acordo com o nível de tensão, cuja aproximação só é permitida a profissionais autorizados.</p>
+                    <h4 class="centralizartexto">ANEXO II<br>
+
+                                                ZONA DE RISCO E ZONA CONTROLADA</h4><p class="textbody">Tabela de raios de delimitação de zonas de risco, controlada e livre.
+
+</p><table class="textbody"><tr><th style="border-right:1px solid;border-bottom:1px solid">Faixa de tensão Nominal da instalação elétrica em kV</th><th style="border-right:1px solid;border-bottom:1px solid">Rr - Raio de delimitação entre zona de risco e controlada em metros</th><th style="border-bottom:1px solid">Rc - Raio de delimitação entre zona controlada e livre em metros</th></tr><tr><td style="border-right:1px solid"><1<br>
+31 e <3<br>
+^ 3 3e < 6<br>
+^ 3 6e < 10<br>
+^ 3 10e < 15<br>
+^ 3 15e < 20<br>
+^ 3 20e < 30<br>
+^ 3 30e < 36<br>
+^ 3 36e < 45<br>
+^ 3 45e < 60<br>
+^ 3 60e < 70<br>
+^ 3 70e < 110<br>
+^ 3 110e < 132<br>
+^ 3 132e < 150<br>
+^ 3 150e < 220<br>
+^ 3 220e < 275<br>
+^ 3 275e < 380<br>
+3380 e <480<br>
+^3 480e < 700</td><td style="border-right:1px solid">0,20<br>
+0,22<br>
+0,25<br>
+0,35<br>
+0,38<br>
+0,40<br>
+0,56<br>
+0,58<br>
+0,63<br>
+0,83<br>
+0,90<br>
+1,00<br>
+1,10<br>
+1,20<br>
+1,60<br>
+1,80<br>
+2,50<br>
+3,20<br>
+5,20
+</td><td>0,70<br>
+1,22<br>
+1,25<br>
+1,35<br>
+1,38<br>
+1,40<br>
+1,56<br>
+1,58<br>
+1,63<br>
+1,83<br>
+1,90<br>
+2,00<br>
+3,10<br>
+3,20<br>
+3,60<br>
+3,80<br>
+4,50<br>
+5,20<br>
+7,20<br>
+</td></tr></table><p class="textbodyborder"><b>Figura 1</b> - Distâncias no ar que delimitam radialmente as zonas de risco, controlada e livre.<br><img src="https://www.guiatrabalhista.com.br/legislacao/nr/imagem1-nr10.jpg"></p><p class="textbodyborder">
+
+
+
+
+<b>Figura 2</b> - Distâncias no ar que delimitam radialmente as zonas de risco, controlada e livre, com interposição de superfície de separação física adequada.<br>
+<img src="https://www.guiatrabalhista.com.br/legislacao/nr/imagem2-nr10.jpg"></p><p class="textbody">
+
+
+
+
+
+ZL
+
+=
+
+Zona livre<br>
+
+ 
+ZC
+
+=
+
+Zona controlada, restrita a trabalhadores autorizados.<br>
+
+ 
+ZR
+
+=
+
+Zona de risco, restrita a trabalhadores autorizados
+
+e com a adoção de técnicas,
+
+instrumentos e equipamentos apropriados ao trabalho.<br>
+
+PE = Ponto da instalação energizado.<br>
+
+SI = Superfície isolante construída com material resistente e dotada de todos dispositivos de segurança.</p><h4 class="centralizartexto">ANEXO III TREINAMENTO
+
+CURSO BÁSICO - SEGURANÇA EM INSTALAÇÕES E SERVIÇOS COM ELETRICIDADE</h4><p class="textbody">
+I - Para os trabalhadores autorizados: carga horária mínima - 40h: Programação Mínima:<br>
+1.introdução à segurança com eletricidade.<br>
+2.riscos em instalações e serviços com eletricidade:<br>
+a) o choque elétrico, mecanismos e efeitos;<br>
+b) arcos elétricos; queimaduras e quedas;<br>
+c) campos eletromagnéticos.<br>
+ 
+3.Técnicas de Análise de Risco.<br>
+4.Medidas de Controle do Risco Elétrico:<br>
+a) desenergização.<br>
+b) aterramento funcional (TN / TT / IT); de proteção; temporário;<br>
+c) equipotencialização;<br>
+d) seccionamento automático da alimentação;<br>
+e) dispositivos a corrente de fuga;<br>
+f) extra baixa tensão;<br>
+g) barreiras e invólucros;<br>
+h) bloqueios e impedimentos;<br>
+i) obstáculos e anteparos;<br>
+j) isolamento das partes vivas;<br>
+k) isolação dupla ou reforçada;<br>
+l) colocação fora de alcance;<br>
+m) separação elétrica.<br>
+ 
+5.Normas Técnicas Brasileiras - NBR da ABNT: NBR-5410, NBR 14039 e outras;<br>
+6.Regulamentações do MTE:<br>
+a) NRs;<br>
+b) NR-10 (Segurança em Instalações e Serviços com Eletricidade);<br>
+c) qualificação; habilitação; capacitação e autorização.<br>
+ 
+7.Equipamentos de proteção coletiva.<br>
+8.Equipamentos de proteção individual.<br>
+9.Rotinas de trabalho - Procedimentos.<br>
+a) instalações desenergizadas;<br>
+b) liberação para serviços;<br>
+c) sinalização;<br>
+d) inspeções de áreas, serviços, ferramental e equipamento;<br>
+10.Documentação de instalações elétricas.<br>
+11.Riscos adicionais:<br>
+a) altura;<br>
+b) ambientes confinados;<br>
+c) áreas classificadas;<br>
+d) umidade;<br>
+e) condições atmosféricas.<br>
+ 
+12.Proteção e combate a incêndios:<br>
+a) noções básicas;<br>
+b) medidas preventivas;<br>
+c) métodos de extinção;<br>
+d) prática;<br>
+ 
+13.Acidentes de origem elétrica:<br>
+a) causas diretas e indiretas;<br>
+b) discussão de casos;<br>
+ 
+14.Primeiros socorros:<br>
+a) noções sobre lesões;<br>
+b) priorização do atendimento;<br>
+c) aplicação de respiração artificial;<br>
+d) massagem cardíaca;<br>
+e) técnicas para remoção e transporte de acidentados;<br>
+f) práticas.<br>
+ 
+15.Responsabilidades.<br>
+</p>
+<h4 class="centralizartexto">2. CURSO COMPLEMENTAR - SEGURANÇA NO SISTEMA ELÉTRICO DE POTÊNCIA (SEP) E EM SUAS PROXIMIDADES.</h4><p class="textbody">
+
+
+
+É pré-requisito para freqüentar este curso complementar, ter participado, com aproveitamento satisfatório, do curso básico definido anteriormente.<br>
+
+
+
+Carga horária mínima - 40h<br>
+
+
+
+(*) Estes tópicos deverão ser desenvolvidos e dirigidos especificamente para as condições de trabalho características de cada ramo, padrão de operação, de nível de tensão e de outras peculiaridades específicas ao tipo ou condição especial de atividade, sendo obedecida a hierarquia no aperfeiçoamento técnico do trabalhador.<br>
+
+
+
+I - Programação Mínima:<br>
+
+1.Organização do Sistema Elétrico de Potência - SEP.<br>
+2.Organização do trabalho:<br>
+a) programação e planejamento dos serviços;<br>
+b) trabalho em equipe;<br>
+c) prontuário e cadastro das instalações;<br>
+d) métodos de trabalho;<br>
+e) comunicação.<br>
+ 
+3.Aspectos comportamentais.<br>
+4.Condições impeditivas para serviços.<br>
+5.Riscos típicos no SEP e sua prevenção (*):<br>
+a) proximidade e contatos com partes energizadas;<br>
+b) indução;<br>
+c) descargas atmosféricas;<br>
+d) estática;<br>
+e) campos elétricos e magnéticos;<br>
+f) comunicação e identificação;<br>
+g) trabalhos em altura, máquinas e equipamentos<br>
+ 
+6.Técnicas de análise de Risco no SEP (*)<br>
+7.Procedimentos de trabalho - análise e discussão. (*)<br>
+8.Técnicas de trabalho sob tensão: (*)<br>
+a) em linha viva;<br>
+b) ao potencial;<br>
+c) em áreas internas;<br>
+d) trabalho a distância;<br>
+e) trabalhos noturnos;<br>
+f) ambientes subterrâneos.<br>
+ 
+9.Equipamentos e ferramentas de trabalho (escolha, uso, conservação, verificação, ensaios) (*).<br>
+10.Sistemas de proteção coletiva (*).<br>
+11.Equipamentos de proteção individual (*).<br>
+12.Posturas e vestuários de trabalho (*).<br>
+13.Segurança com veículos e transporte de pessoas, materiais e equipamentos(*).<br>
+14.Sinalização e isolamento de áreas de trabalho(*).<br>
+15.Liberação de instalação para serviço e para operação e uso (*).<br>
+16.Treinamento em técnicas de remoção, atendimento, transporte de acidentados (*).<br>
+17.Acidentes típicos (*) - Análise, discussão, medidas de proteção.<br>
+18.Responsabilidades (*).</p>                                   
+  <div id="footer"><div class="footer"><table style="text-align:left "><tr><th style="border-bottom: 2px solid white">FALE CONOSCO:</th></tr><tr><td>Curitiba:  (41) 3512-5836<br>
+Whatsapp: (14) 99824-9869
+                                                                                      <p style="font-size:15px">Nosso horário de atendimento é de segundas às sextas-feiras,<br> das 09:00 às 11:45h e das 13:15 às 17:45h (horário de Brasília).</p>                              </td></tr></table></div><div id="locallogo"><img src="https://i.postimg.cc/Nj3pZ75g/Imagem-do-Whats-App-de-2024-07-25-s-21-58-37-e0fdd6a5.png" width="150px" height="150px"></div></div>
+  
+                           <h6 id="nome">Site com intuito educacional feito por:Alex Silva Santos Github:Alex-ssBR</h6>
+</!doctype></body></html>
+
+CSS
+
+.textbody{
+  margin-left:13px;
+  line-height:1.7;
+   text-align: justify;
+            width: 95%;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.white-bar {
+    display: flex;
+    justify-content:right;
+  background-color:rgb(138, 47, 47) ;
+    padding: 30px 3px;
+
+}
+
+.search-container {
+    display: flex;
+  position:relative;
+  top:-30px;
+  right:-30px;
+}
+.search-container form {
+    display: flex;
+  margin-top:15px;
+  margin-bottom:15px;
+  margin-right:90px;
+ 
+  }
+
+.search-container input[type="text"] {
+    padding: 10px;
+  width:700px;
+    font-size: 13px;
+  margin-right: 3px;
+    border: 1px solid #ccc;
+    border-radius: 8px 8px 8px 8px;
+    outline: none; 
+}
+
+.search-container button {
+    margin: 5px 5px;
+    font-size: 13px;
+    border-left: none;
+    background-color: #4CAF50;
+    color: white;
+border-radius: 8px 8px 8px 8px;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #45a049;
+}
+.arredondar{
+  border-radius: 8px 8px 8px 8px;
+}
+#logo{
+  margin-right:80px;
+  color:white;
+  font-size:25px;
+  text-shadow:2px 2px white;
+  
+  
+}
+       @keyframes mudarCor {
+            0% { color: black; }
+            100% { color: lightgray; }
+        }
+
+        .animada {
+            font-size: 2em;
+            animation: mudarCor 2s 
+              infinite;
+        }
+#data{
+  text-align:right;
+  margin-right:10px;
+  
+}
+#botao{
+  margin-left:10px;
+}
+#titulo{
+text-align:center;
+}
+.table{
+  border:1px solid;
+ border-radius:1px 1px 1px 1px;
+  margin-left: auto;
+  margin-right:9px;
+}
+.bordadatabela{
+  border-right:1px solid;
+}
+.leis{
+  margin-left:12px;
+  font-size:20px;
+  cursor:pointer;
+}
+.letterline:hover{
+  background-color:lightgray;
+  padding:0;
+}
+.letterline{
+  text-decoration-line:underline;
+}
+
+#footer{ 
+  background-color:rgb(138, 47, 47) ;
+    padding: 30px 3px;
+  display:flex;
+}
+.footer{
+ 
+  margin-left:20px;
+  color:white;
+  
+}
+#barra{
+  box-sizing:border-box;
+}
+#seguranca{
+  list-style:none;
+  padding:0;
+  position:absolute;
+ left:320px;
+    top:40px;
+}#barra{
+  margin: 0 auto;
+  padding:0 ;
+  box-sizing:border-box
+}
+#seguranca{
+  list-style:none;
+  padding:0;
+}
+#seguranca li{
+  display:inline;
+}
+#seguranca li a{
+  paddin:10px;
+  text-decoration:none;
+  display:inline-bloclk;
+  transition:border-radius .3s;
+  
+}
+#seguranca li a:hover{
+  border-bottom:1px solid;
+  background-color:rgb(133, 82, 82);
+  padding: 4px;
+}
+#barra{
+  margin: 0 auto;
+  padding:0 ;
+  box-sizing:border-box
+}
+#seguranca{
+  list-style:none;
+  padding:0;
+ margin-top:60px;  
+}
+#seguranca li{
+  display:inline;
+}
+#seguranca li a{
+ color: white;
+  paddin:10px;
+  text-decoration:none;
+  display:inline-bloclk;
+  transition:background .7s;
+  margin-right:3px;
+  cursor:pointer;
+  
+  
+}
+#seguranca li a:hover{
+  border-bottom:1px solid;
+}
+#locallogo{
+  padding:0;
+  margin:0;
+  position:relative;
+  margin-left:600px;
+  margin-bottom:10px;
+  
+  
+}
+#nome{
+  margin:0;
+  padding:0;
+}
+.centralizartexto{
+  text-align:center;
+}
+.textbodyborder{
+  margin-left:13px;
+  line-height:1.7;
+  
+   text-align: center;
+  border:2px solid;
+}
+.taxado{
+text-decoration:line-through;
+}
