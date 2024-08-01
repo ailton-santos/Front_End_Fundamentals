@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exemplo You Tube Video</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div>
+      <h1>SENAI Bras</h1>
+    </div>
+    <div>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/YZYwb_a3Kik"
+        frameborder="0"
+        allow="accelerometer;autoplay;clipboard-write;gyroscope;picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <br><br>
+      <form id="form">
+        <label for="">Gostou do Video?</label><br>
+        <label for="">Sim</label>
+        <input type="radio" name="video" id="inputRadio" value="Sim" checked>
+        <label for="">Não</label>
+        <input type="radio" name="video" id="inputRadio" value="Não" checked>
+        <br>
+        <textarea name="text" id="textarea">
+
+        </textarea>
+        <br>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+    <br />
+    <div>
+      <h1>Aúdios</h1>
+      <audio controls>
+        <source
+          src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3"
+          type="audio/mpeg"
+        />
+      </audio>
+    </div>
+    <p class="titulo">Teste 1</p>
+    <div>
+      <p>Exemplo <span>Exemplo sapan</span> fecha o p</p>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
