@@ -1,0 +1,45 @@
+<body>
+  <div class="container">
+    <h2>Alterar a cor do fundo</h2>
+    <lable for="colorPicker">Escolha uma cor:</lable>
+    <input type="color" id="colorPicker">
+    </div>
+  <script src="script.js"></script>
+  </body>
+CSS
+body{
+  font-family:Roboto,verdana;
+  background-color:#f0f0f0;
+}
+.container{
+  max-width:400px;
+  margin:50px auto;
+  padding:20px;
+  background-color:#fff;
+  box-shadow: 0 0 10px green;
+  border-radius: 10px;
+
+}
+h2{
+  margin-top:0;/*deixar o titulo no topo*/
+  text-shadow: 2px 2px 0.1em gray;
+}
+lable{
+  display: block;/*criar uma caixar fixa*/
+  margin-bottom:10px;
+}
+input[type="color"]{
+  width:100%;
+  padding:1px;
+  border:1px solid #ccc;
+  border-radius: 5px;
+  cursor:pointer;
+  background: linear-gradient(45deg, lightgreen, red);
+
+}
+JS
+var colorPicker= document.getElementById('colorPicker')
+colorPicker.addEventListener('input',function(){
+  document.body.style.backgroundColor=colorPicker.value;
+  
+});
