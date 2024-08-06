@@ -1,0 +1,79 @@
+
+body{
+    background-color: #FFDE59;
+  border:4px solid #E74C3C;
+    margin:0;
+  }
+  .button:hover{
+    background-color:#f0f0f0;
+  }
+  .button{
+      width:100%;
+    height:100%;
+    background-color:white;
+    border-radius: 5px;
+    border:1px solid;
+    padding: 10px;
+    text-align:center;
+    justify-content: center;
+    width:110px;
+    height:200px;
+    box-shadow:0.1px 0.1px 0.2em;
+    background-color:white;
+    cursor:pointer;
+  }
+  .button:active{
+    background-color:lightgreen;
+  }
+  .dinheiro{
+    font-family:Californian FB;
+  }
+  .FALAS{text-shadow: 1px 1px 1px white;font-family:forte;
+    font-size:50px;
+  position:relative;
+    top:60px;
+    left:60px;
+  }
+  
+  .pedidos{
+    border-radius:10px;
+    border:1px solid;
+    width:150px;
+    padding-left:10px;
+    background-color:white;
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 10px;
+  }
+  .pedidoss{
+   display: flex;
+              justify-content: flex-end;
+    margin-right:20px;
+  }
+  .container {
+    display: flex;
+    justify-content: center; /* Alinha os itens horizontalmente no centro */
+    align-items: center;     /* Alinha os itens verticalmente no centro (opcional) */
+    height: 35vh;
+
+    /* Define a altura do contêiner para ocupar toda a altura da viewport (opcional) */
+  }
+  
+  .item {
+    margin: 0 10px;          /* Espaço entre os itens (opcional) */
+  }
+  #fundodosp{
+    padding:20px;
+    background-color:#ffe88c;
+  
+  }
+  #buttondecompra{
+    display: flex;
+    background-color: #E74C3C;
+    border-radius: 10px ;
+    border: none;
+    color: white;
+  }
+  #buttondecompra:active{
+    background-color: #eb8074;
+  }

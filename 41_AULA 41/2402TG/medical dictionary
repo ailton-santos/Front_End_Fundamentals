@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+    <title>Animação de Palavra</title>
+</head>
+<body>
+<div id="white-bar"> <center><h1 id="letra">DICIONÁRIO MÉDICO</h1></center>
+<div id="distancia"><a href="https://www.xn--dicionriomdico-0gb6k.com/A"><botton class="botoes">A</botton></a><a href="https://www.xn--dicionriomdico-0gb6k.com/B"><botton class="botoes">B</botton></a><a href="https://www.xn--dicionriomdico-0gb6k.com/C"><botton class="botoes">C</botton></a><botton class="botoes">D</botton><botton class="botoes">E</botton><botton class="botoes">F</botton><botton class="botoes">G</botton><botton class="botoes">H</botton><botton class="botoes">I</botton><botton class="botoes">J</botton><botton class="botoes">K</botton><botton class="botoes">L</botton><botton class="botoes">M</botton><botton class="botoes">N</botton><botton class="botoes">O</botton><botton class="botoes">P</botton><botton class="botoes">Q</botton><botton class="botoes">R</botton><botton class="botoes">S</botton><botton class="botoes">T</botton><botton class="botoes">U</botton><botton class="botoes">V</botton><botton class="botoes">W</botton><botton class="botoes">X</botton><botton
+class="botoes">Y</botton><botton class="botoes">Z</botton>
+</div>
+  </div>
+  </div>
+<h1 id="palavracentro">ESCOLHA A LETRA DESEJADA!</h1>
+</body>
+</html>
+CSS
+#letra{
+  text-shadow: 2px 2px 4px black;
+}
+.botoes{
+  border:2px solid;
+  border-radius: 10px 10px 10px 10px;
+ font-size:30px;
+background-color:white;
+  margin-left:10px;
+  padding:1px 1px;
+  color:black;
+}
+.botoes:active{
+  background-color: gray;
+}
+
+#distancia{
+   text-align:center;
+  cursor:pointer;
+  transition: background-color 0.1s;
+}
+#white-bar {
+  background-color:lightgray ;
+    padding: 10px 3px;
+  border-bottom:2px solid;
+
+}
+#palavracentro{
+  text-align:center;
+  position:relative;
+  margin-top:50px;
+}
+a{
+  text-decoration:none
+}
