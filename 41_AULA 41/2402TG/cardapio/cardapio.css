@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(234, 221, 247);
+  font-family: Georgia;
+  text-align: center;
+}
+
+.imagem {
+width: 300px;
+
+  
+ 
+}
+
+.box-nav {
+  background-color: blueviolet;
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0.1);
+  text-shadow: 0 0 10px;
+}
+/* Estilos básicos para layout */
+.cardapio {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.cardapio p {
+    font-size: 20px;
+    font-weight: bold;
+}
+.item {
+    margin-bottom: 10px;
+}
+.total {
+    margin-top: 20px;
+    font-weight: bold;
+}
