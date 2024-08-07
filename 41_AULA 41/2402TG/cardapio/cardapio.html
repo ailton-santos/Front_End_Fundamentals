@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cardapio.css">
+    <title>Cardápio</title>
+</head>
+<body>
+    
+    <div class="box-nav">
+        <img src="img.logo/senai-logo-0.png" class="imagem">
+        <h1>CARDÁPIO CANTINA SENAI</h1>
+        
+    </div>
+    <div class="cardapio">
+        <p>Cardápio</p>
+        <div class="item">
+            <input type="text" id="valor" placeholder="Salgados" readonly> 5,00
+            <button onclick="adicionarItem(5)">+</button>
+        </div>
+        <div class="item">
+            <input type="text" id="valors" placeholder="Sucos" readonly> 4,00
+            <button onclick="adicionarItem(4)">+</button>
+        </div>
+        <div class="item">
+            <input type="text" id="valorr" placeholder="Refrigerante" readonly> 5,00
+            <button onclick="adicionarItem(5)">+</button>
+        </div>
+        <div class="item">
+            <input type="text" id="valora" placeholder="Água" readonly> 3,00
+            <button onclick="adicionarItem(3)">+</button>
+        </div>
+        <div class="item">
+            <input type="text" id="valorP" placeholder="Pão na chapa" readonly> 5,00
+            <button onclick="adicionarItem(5)">+</button>
+        </div>
+        <div class="item">
+            <input type="text" id="valorh" placeholder="Hamburguer" readonly> 6,00
+            <button onclick="adicionarItem(6)">+</button>
+        </div>
+        <div class="total">
+            Total: R$ <span id="total">0,00</span><br>
+            <span id="desconto"></span>
+        </div>
+    </div>
+
+    <script>
+        let total = 0;
+        let quantidadeItens = 0;
+
+        function adicionarItem(preco) {
+            total += preco;
+            quantidadeItens++;
+            atualizarTotal();
+        }
+
+        function atualizarTotal() {
+            let desconto = 0;
+
+            if (quantidadeItens >= 2) {
+                desconto = total * 0.10; // 10% de desconto
+            }
+
+            let totalComDesconto = total - desconto;
+            document.getElementById('total').innerText = totalComDesconto.toFixed(2);
+            
+            if (quantidadeItens >= 2) {
+                document.getElementById('desconto').innerText = `Desconto de 10% aplicado: R$ ${desconto.toFixed(2)}`;
+            } else {
+                document.getElementById('desconto').innerText = '';
+            }
+        }
+    </script>
+</body>
+</html>
