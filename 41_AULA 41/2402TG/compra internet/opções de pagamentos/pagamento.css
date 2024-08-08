@@ -1,8 +1,9 @@
+
 #cantina{
     position: absolute;
     opacity: 0.3px white;
-    width: 1599px;
-    height: 765px ;
+    width: 1588px;
+    height: 750px ;
     filter: blur(8px);
 }
 
@@ -68,4 +69,7 @@ input[type="submit"]:active{
 #num{
     width: 25%;
     
+}
+.sp{
+    margin-left: 120px;
 }
