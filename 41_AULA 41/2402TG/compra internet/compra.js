@@ -1,4 +1,5 @@
 
+
 let total = 0;
 
 function addValue(value) {
