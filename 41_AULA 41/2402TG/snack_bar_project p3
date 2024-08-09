@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+  <title>Cardápio Interativo</title>
+        <body><div style="display:flex"><img src="https://i.postimg.cc/qvTtGxBZ/Orange-Crab-Restaurant-Logo-Template-20240802-185219-0000.jpg" width="20%">
+         <CENTER><h2 CLASS="FALAS">FAÇA SEU PEDIDO AQUI!!</h2></CENTER> </div>
+          <div id="fundodosp">
+            
+            <div class="container"class="lanches"id=""><div class="item">
+            <button id=""  onclick="addValue(1.20)" id="nomedospedidos"><h3>Cachorro quente</h3>
+              <img src="https://th.bing.com/th/id/OIP.oOzrsJMTwGX1nSkPVT-FnAHaFD?rs=1&pid=ImgDetMain" width="90px" >
+              <h3 class="dinheiro">R$1,20</h3>
+              </button></div>
+         <div class="item"><button  onclick="addValue(1.30)" id="nomedospedidos"><h3>Bauru Simples</h3>
+              <img src="https://th.bing.com/th/id/OIP.oOzrsJMTwGX1nSkPVT-FnAHaFD?rs=1&pid=ImgDetMain" width="90px" >
+              <h3 class="dinheiro">R$1,30</h3>
+              </button></div>
+              <div class="item"><button id=""  onclick="addValue(1,50)" id="nomedospedidos"><h3>Bauru com ovo</h3>
+              <img src="https://th.bing.com/th/id/OIP.oOzrsJMTwGX1nSkPVT-FnAHaFD?rs=1&pid=ImgDetMain" width="90px" >
+              <h3 class="dinheiro">R$1,50</h3>
+              </button></div>
+              <div class="item"><button id=""  onclick="addValue(1.20)" id="nomedospedidos"><h3>Hamburguer</h3>
+              <img src="https://th.bing.com/th/id/OIP.oOzrsJMTwGX1nSkPVT-FnAHaFD?rs=1&pid=ImgDetMain" width="90px" >
+              <h3 class="dinheiro">R$1,20</h3>
+              </button></div>
+              <div class="item"><button id=""  onclick="addValue(1.30)" id="nomedospedidos"><h3>Cheese<br>burguer</h3>
+              <img src="https://th.bing.com/th/id/OIP.oOzrsJMTwGX1nSkPVT-FnAHaFD?rs=1&pid=ImgDetMain" width="90px" >
+              <h3 class="dinheiro">R$1,30</h3>
+              </button></div>
+              <div class="item"><button id=""  onclick="addValue(1.00)" id="nomedospedidos"><h3>Refrigerante</h3>
+              <img src="https://th.bing.com/th/id/OIP.oOzrsJMTwGX1nSkPVT-FnAHaFD?rs=1&pid=ImgDetMain" width="90px" >
+              <h3 class="dinheiro">R$1,00</h3>
+              </button></div>
+              </div>
+            
+          </div>
+
+    
+<div style="display:flex"><img src="https://i.postimg.cc/ZnSfpCqw/Orange-Crab-Restaurant-Logo-Template-20240805-184903-0000.png" width="15%" style="margin-left: 8px;" >
+<div class="pedidoss"><h3 class="pedidos">PEDIDOS <img src="https://knoow.net/wp-content/uploads/2018/03/ponto-de-venda.png" width="20px" height="20px"><div><p id="totalDisplay">Total: R$ 0,00</p></div></h3></H3>
+
+              
+            </div></div>
+            <script src="test.js"></script>
+</body>
+</html>
+
+CSS
+
+body{
+  background-color: #FFDE59;
+border:2px solid #E74C3C;
+  margin:0;
+}
+button:hover{
+  background-color:#f0f0f0;
+}
+button{
+    width:100%;
+  height:100%;
+  background-color:white;
+  border-radius: 5px;
+  border:1px solid;
+  padding: 10px;
+  text-align:center;
+  justify-content: center;
+  width:110px;
+  height:200px;
+  box-shadow:0.1px 0.1px 0.2em;
+  background-color:white;
+  cursor:pointer;
+}
+button:active{
+  background-color:lightgreen;
+}
+.dinheiro{
+  font-family:Californian FB;
+}
+.FALAS{text-shadow: 1px 1px 1px white;font-family:forte;
+  font-size:40px;
+position:relative;
+  top:50px;
+  left:90px;
+}
+
+.pedidos{
+  display: flex;
+  border-radius:10px;
+  border:1px solid;
+  width:150px;
+  padding-left:10px;
+  background-color:white;
+
+}
+.pedidoss{
+
+position:absolute;
+  margin-left:76%;
+}
+.container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 40vh;          
+}
+
+.item {
+  margin: 0 10px;         
+}
+#fundodosp{
+  padding:20px;
+  background-color:#ffe88c;
+
+}
+
+JS
+
+let total = 0;
+        
+
+        function addValue(value) {
+            document.getElementById('totalDisplay').innerText = "Total: R$ " + total.toFixed(2);
+            return  total += value;
+        }
+
+        
+            if (total > 10) {
+                let desconto = valorCompra -( valorCompra * 0.10);
+                alert(Você recebeu um desconto de 10%! O novo total é R$ ${valorCompra.toFixed(2)});
+                else {
+                    alert('Não recebeu desconto')
+                }
+            }
+            document.getElementById("pre").value = valorCompra.toFixed(2);
