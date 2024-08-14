@@ -1,0 +1,80 @@
+
+
+body{margin: 0px;}
+
+.container{
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: darkgray;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+    padding: 10px;
+    position: absolute;
+    margin-left: 600px;
+    top:30px;
+}
+
+#cantina{
+    position: absolute;
+    opacity: 0.3px white;
+    width: 1599px;
+    height: 765px ;
+    filter: blur(8px);
+}
+
+input[type="number"]{
+    padding: 10px;
+    border-radius: 20px;
+    width: 25%;
+    border: none;
+}
+
+input[type="text"]{
+    padding: 10px;
+    border-radius: 20px;
+    width: 43%;
+    border: none;
+}
+
+input[type="search"]{
+    border: none;
+    border-radius: 20px;
+    width: 85%;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+td{
+    padding-bottom: 10px;
+}
+
+#qnt{
+    background-color: white; 
+    width: 28%; 
+    padding: 3px;
+    border-radius: 20px;
+}
+
+span{
+    text-decoration: none;
+    cursor: pointer;
+}
+ button{
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+ }
+
+ button:hover{
+    background-color: gray;
+ }
+
+ button:active{
+    background-color: rgb(255, 255, 255);
+ }
+
+#bot{
+    width: 90%;
+    padding: 10px;
+    margin-left: 20px;
+}
