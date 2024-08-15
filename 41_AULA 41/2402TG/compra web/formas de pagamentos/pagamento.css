@@ -1,3 +1,4 @@
+
 #cantina{
     position: absolute;
     opacity: 0.3px white;
@@ -44,23 +45,22 @@ input, textarea{
     resize: none;
 }
 
-input[type="submit"]{
+.botao{
     border: none;
     border-radius: 20px;
-    width: 90%;
+    width: 95%;
     padding: 10px;
     margin-bottom: 10px;
-    width: 95%;
     color: white;
     background-color: blue;
     cursor: pointer;
 }
 
-input[type="submit"]:hover{
+.botao:hover{
     background-color: rgb(0, 0, 164);
 }
 
-input[type="submit"]:active{
+.botao:active{
     background-color: rgb(255, 255, 255);
     color: black;
 }
@@ -68,4 +68,31 @@ input[type="submit"]:active{
 #num{
     width: 25%;
     
+}
+
+input[type="submit"]{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(0, 0, 164);
+}
+
+.container3{
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: darkgray;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+    padding: 10px;
+    position: absolute;
+    top: 50px;
+    margin-left: 1150px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
 }
