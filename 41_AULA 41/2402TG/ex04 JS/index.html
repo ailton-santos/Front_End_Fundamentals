@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <title>Cardápio - Hamburgueria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="" role="form" method="post" id="cardapio">
+        <table width="460" cellpadding="0" cellspacing="2">
+            <tr>
+                <th width="300" valign="top" height="40">Salgado</th>
+                <th width="80" valign="top" height="40">Quantidade</th>
+                <th width="80" valign="top" height="40">Preço</th>
+            </tr>
+            <tr>
+                <td>Cachorro quente</td>
+                <td>
+                    <input type="number" name="qtd01" id="qtd01" value="0" min="0" class="borda2" />
+                </td>
+                <td>1,20</td>
+            </tr>
+            <tr>
+                <td>Bauru simples</td>
+                <td>
+                    <input type="number" name="qtd02" id="qtd02" value="0" min="0" class="borda2" />
+                </td>
+                <td>1,30</td>
+            </tr>
+            <tr>
+                <td>Bauru com ovo</td>
+                <td>
+                    <input type="number" name="qtd03" id="qtd03" value="0" min="0" class="borda2" />
+                </td>
+                <td>1,50</td>
+            </tr>
+            <tr>
+                <td>Hamburger</td>
+                <td>
+                    <input type="number" name="qtd04" id="qtd04" value="0" min="0" class="borda2" />
+                </td>
+                <td>1,20</td>
+            </tr>
+            <tr>
+                <td>Cheeseburger</td>
+                <td>
+                    <input type="number" name="qtd05" id="qtd05" value="0" min="0" class="borda2" />
+                </td>
+                <td>1,30</td>
+            </tr>
+            <tr>
+                <td>Refrigerante</td>
+                <td>
+                    <input type="number" name="qtd06" id="qtd06" value="0" min="0" class="borda2" />
+                </td>
+                <td>1,00</td>
+            </tr>
+            <tr>
+                <td>Total da compra</td>
+                <td>-</td>
+                <td><input type="text" name="pre" id="pre" value="0" class="borda" /></td>
+            </tr>
+            <tr>
+                <td colspan="3" valign="bottom" height="60">
+                    <button type="button" onclick="cardapio()">Calcular</button>
+                    <button type="button" onclick="zerar()">zerar</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" valign="bottom" height="60">
+                    <button type="button" onclick="aVista()">à vista</button>
+                    <button type="button" onclick="parcelado()">crédito</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
