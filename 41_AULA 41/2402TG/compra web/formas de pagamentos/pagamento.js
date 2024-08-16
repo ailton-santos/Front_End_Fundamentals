@@ -35,9 +35,9 @@ document.getElementById('cpf').addEventListener('input', function(e) {
 
 const mostrar = document.getElementById('bot');
     mostrar.addEventListener('click', function(){
-      if (nome, sobrenome, cpf, data, email, phone.value, caixa){
+      if (nome, sobrenome, cpf, data, email, phone.value, caixa){//se a caixa de texto for preenchida 
         alert('Nome: ' + document.getElementById('name').value + "\n" + 'sobrenome: ' + document.getElementById('sobrenome').value + "\n" + 'CPF: ' + document.getElementById('cpf').value + "\n" + 'Data: ' + document.getElementById('data').value + "\n" + 'Email: ' + document.getElementById('email').value + "\n" + 'Phone: ' + document.getElementById('phone').value);
-      }else{
+      }else{//se não for preenchida
         alert('coloque seus dados!')
       }
     });
