@@ -1,0 +1,89 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="compra.css">
+    <title>compra</title>
+</head>
+<body>
+    <img src="cantina.jpg" alt="" id="cantina">
+    <div class="container">
+        <h1 style="text-align: center; text-decoration: underline;">LOJA DO JAPONÊS</h1>
+        <h2 style="text-align: center; padding-bottom: 10px; text-decoration: underline;">(OBS:Não tem desconto e nem fiado)</h2>
+        <h1 style="text-align: center; padding-bottom: 10px; text-decoration: underline;">Cardápio</h1>
+    <table id="cardapio">
+        <tr>
+            <th colspan="">salgado</th>
+            <th>quantidade</th>
+            <th>preço</th>
+        </tr>
+
+        <tr style="text-align: center;">
+            <td>Cachorro quente</td>
+            <td id="qnt"><table><tr><td style="padding-right: 10px; padding-left: 10px;"><button style="background-color: white;" onclick="addValue(-1.20)">➖</button></td><td style="padding-right: 10px; padding-left: 10px;" class="quantidade"><span name="qtd01" id="qtd01">1</span></td><td style="padding-right: 10px; padding-left: 10px;"><button onclick="addValue(1.20)" style="background-color: white;">➕</button></td></tr></table></td>
+            <td>R$1,20</td>
+        </tr>
+            
+        <tr style="text-align: center;">
+            <td>Bauru simples</td>
+            <td id="qnt"><table><tr><td style="padding-right: 10px; padding-left: 10px;"><button onclick="addValue(-1.30)" style="background-color: white;">➖</button></td><td style="padding-right: 10px; padding-left: 10px;" class="quantidade"><span name="qtd02" id="qtd02">1</span></td><td style="padding-right: 10px; padding-left: 10px;"><button onclick="addValue(1.30)" style="background-color: white;">➕</button></td></tr></table></td>
+            <td>R$1,30</td>
+        </tr>
+
+        <tr style="text-align: center;">
+            <td>Bauru com ovo</td>
+            <td id="qnt"><table><tr><td style="padding-right: 10px; padding-left: 10px;"><button onclick="addValue(-1.50)" style="background-color: white;">➖</button></td><td style="padding-right: 10px; padding-left: 10px;" class="quantidade"><span name="qtd03" id="qtd03">1</span></td><td style="padding-right: 10px; padding-left: 10px;"><button onclick="addValue(1.50)" style="background-color: white;">➕</button></td></tr></table></td>
+            <td>R$1,50</td>
+        </tr>
+
+        <tr style="text-align: center;">
+            <td>Hamburguer</td>
+            <td id="qnt"><table><tr><td style="padding-right: 10px; padding-left: 10px;"><button onclick="addValue(-1.20)" style="background-color: white;">➖</button></td><td style="padding-right: 10px; padding-left: 10px;" class="quantidade2"><span name="qtd04" id="qtd04">1</span></td><td style="padding-right: 10px; padding-left: 10px;"><button onclick="addValue(1.20)" style="background-color: white;">➕</button></td></tr></table></td>
+            <td>R$1,20</td>
+        </tr>
+
+        <tr style="text-align: center;">
+            <td>Cheeseburger</td>
+            <td id="qnt"><table><tr><td style="padding-right: 10px; padding-left: 10px;"><button onclick="addValue(-1.30)" style="background-color: white;">➖</button></td><td style="padding-right: 10px; padding-left: 10px;" class="quantidade"><span name="qtd05" id="qtd05">1</span></td><td style="padding-right: 10px; padding-left: 10px;"><button onclick="addValue(1.30)" style="background-color: white;">➕</button></td></tr></table></td>
+            <td>R$1,30</td>
+        </tr>
+
+        <tr style="text-align: center;">
+            <td>Refigerante</td>
+            <td id="qnt"><table><tr><td style="padding-right: 10px; padding-left: 10px;"><button onclick="addValue(-1.00)" style="background-color: white;">➖</button></td><td style="padding-right: 10px; padding-left: 10px;" class="quantidade"><span name="qtd06" id="qtd06">1</span></td><td style="padding-right: 10px; padding-left: 10px;"><button onclick="addValue(1.00)" style="background-color: white;">➕</button></td></tr></table></td>
+            <td>R$1,00</td>
+        </tr>
+
+        <tr style="text-align: center;">
+            <td >TOTAL</td>
+            <td colspan="2" id="totalDisplay" style="background-color: white; padding: 0px; border-radius: 20px; height: 35px;"></td>
+        </tr>  
+        
+        <tr>
+            <td colspan="3" valing="bottom">
+                <button onclick="cardapio()" id="bot" type="submit">Finalizar compra</button>
+            </td>
+        </tr>
+
+        <tr>
+            <form action="opções de pagamentos/pagamento.html" method="post">
+            <td style="text-align: center;"><button style="width: 75px; height: 30px; padding: 1px;"><img src="pix-106.png" alt="img" style="width: 20px; height: 20px;"></button></td>
+            <td><button style="width: 75px; height: 30px; padding: 1px;"><img src="cartao-do-banco.png" alt="" style="width: 20px; height: 20px; text-align: center;">Crédito</button></td>
+            <td><button style="width: 75px; height: 30px; padding: 1px;"><img src="cartao-do-banco.png" alt="" style="width: 20px; height: 20px; text-align: center;">Débito</button></td>
+            </form>
+        </tr>
+    </table>
+    <div style="margin-bottom: 10px;">
+    <input type="search" placeholder="Pesquise seu endereço" style="position: absolute;">
+    <a href="#"><img src="loupe - Copia.png" width="25px" height="25px" style="position: relative; margin-left: 340px;"></a>
+    </div>
+    </div>
+
+    
+<script src="compra.js">
+</script>
+</body>
+</html>
