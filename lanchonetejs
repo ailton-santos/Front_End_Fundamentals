@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <title>Cardápio - Hamburgueria Marinheiro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <form action="" role="form" method="post" id="cardapio">
+        <table width="460" cellpadding="0" cellspacing="2">
+            <tr>
+                <th width="300" align="center" valign="top" height="40">Salgado</th>
+                <th width="80" align="center" valign="top" height="40">Quantidade</th>
+                <th width="80" align="center" valign="top" height="40">Preço</th>
+            </tr>
+            <tr>
+                <td align="center">Cachorro quente</td>
+                <td align="center">
+                    <input type="text" name="qtd01" id="qtd01" value="0" class="borda2" />
+                </td>
+                <td align="center">1,20</td>
+            </tr>
+            <tr>
+                <td align="center">Bauru simples</td>
+                <td align="center">
+                    <input type="text" name="qtd02" id="qtd02" value="0" class="borda2" />
+                </td>
+                <td align="center">1,30</td>
+            </tr>
+            <tr>
+                <td align="center">Bauru com ovo</td>
+                <td align="center">
+                    <input type="text" name="qtd03" id="qtd03" value="0" class="borda2" />
+                </td>
+                <td align="center">1,50</td>
+            </tr>
+            <tr>
+                <td align="center">Hamburger</td>
+                <td align="center">
+                    <input type="text" name="qtd04" id="qtd04" value="0" class="borda2" />
+                </td>
+                <td align="center">1,20</td>
+            </tr>
+            <tr>
+                <td align="center">Cheeseburger</td>
+                <td align="center">
+                    <input type="text" name="qtd05" id="qtd05" value="0" class="borda2" />
+                </td>
+                <td align="center">1,30</td>
+            </tr>
+            <tr>
+                <td align="center">Refrigerante</td>
+                <td align="center">
+                    <input type="text" name="qtd06" id="qtd06" value="0" class="borda2" />
+                </td>
+                <td align="center">1,00</td>
+            </tr>
+            <tr>
+                <td align="center">Total da compra</td>
+                <td align="center">-</td>
+                <td align="center"><input type="text" name="pre" id="pre" value="0" class="borda" /></td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center" valign="bottom" height="60">
+                    <button type="button" onclick="cardapio()">Somar</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
+//css
+body {
+    font-family: 'Arial', sans-serif;
+  background-image: url("https://www.foodandwine.com/thmb/8N5jLutuTK4TDzpDkhMfdaHLZxI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/McDonalds-Hacks-Menu-FT-1-BLOG0122-4ac9d62f6c9143be8da3d0a8553348b0.jpg");
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+table {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #0077cc;
+    color: #fff;
+    padding: 15px;
+    font-size: 1.1em;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+.borda {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+    border: solid 1px #ccc;
+    width: 80px;
+    outline: 0;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.borda2 {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+    border: solid 1px #ccc;
+    width: 50px;
+    outline: 0;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.borda2:focus {
+    box-shadow: inset 0 0 5px rgba(0, 123, 255, 0.5);
+    border-color: #007bff;
+}
+
+button {
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+@media (max-width: 600px) {
+    table {
+        width: 95%;
+    }
+
+    th,
+    td {
+        font-size: 0.9em;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 0.9em;
+    }
+}
+//js
+function cardapio() {
+    // Preços dos salgados
+    const precos = [1.20, 1.30, 1.50, 1.20, 1.30, 1.00];
+
+    // Total da compra
+    let valorCompra = 0;
+
+    // Índice para o loop
+    let i = 1;
+
+    // Loop while para calcular o total
+    while (i <= 6) {
+        const qtd = parseInt(document.getElementById(`qtd0${i}`).value) || 0;
+
+        // Verificar se a quantidade é negativa
+        if (qtd < 0) {
+            alert("As quantidades não podem ser negativas. Por favor, insira valores válidos.");
+            return;
+        }
+
+        // Calcular total
+        valorCompra += precos[i - 1] * qtd;
+        i++;
+    }
+
+    // Aplicar desconto para compras acima de R$ 10,00
+    if (valorCompra > 10) {
+        const desconto = 0.10; // 10% de desconto
+        valorCompra -= valorCompra * desconto;
+        alert(`Você recebeu um desconto de 10%! O novo total é R$ ${valorCompra.toFixed(2)}`);
+    }
+
+    // Exibir mensagens específicas baseadas em condições
+    const qtdRefrigerantes = parseInt(document.getElementById("qtd06").value) || 0;
+    const qtdCachorroQuente = parseInt(document.getElementById("qtd01").value) || 0;
+    const qtdHamburguer = parseInt(document.getElementById("qtd04").value) || 0;
+if(qtdCachorroQuente >= 5){
+  alert("vai engolir tanta salsicha")
+}
+  
+    if (qtdRefrigerantes >= 3) {
+        alert("Você comprou 3 ou mais refrigerantes. Que tal um hambúrguer para acompanhar?");
+    } else if (valorCompra > 15) {
+        alert("Você fez uma compra grande! Aproveite um cupom de desconto em sua próxima visita.");
+    } else if (qtdCachorroQuente >= 5 || qtdHamburguer >= 5) {
+        alert("Compras grandes de cachorro-quente ou hambúrguer! Obrigado pela preferência.");
+    } else if (valorCompra === 0) {
+        alert("Você não selecionou nenhum item. Por favor, escolha algum produto.");
+        return; // Não continua se a compra for zero
+    } else {
+        alert("Obrigado pela sua compra! Volte sempre.");
+    }
+
+    // Exibir o total da compra
+    document.getElementById("pre").value = valorCompra.toFixed(2);
+}
