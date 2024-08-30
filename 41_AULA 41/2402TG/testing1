@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="project.css">
+  
+  <title>Document</title>
+</head>
+<body><div class="conteudo">
+ <div class="elemento_">
+  <img src="https://th.bing.com/th/id/OIP.kLFZFNZnHPgKuRNWGFWENQHaD5?w=297&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" class="imagem"alt="Imagem Exemplo">
+
+</div> <div class="elemento">
+<p class="texto">No curso de Front-End do SENAI, uma turma entusiástica está mergulhando em um projeto desafiador: a criação de uma interface para um banco de dados de biblioteca.</h5>
+</div></div>
+  <script src='project.js'></script>
+</body>
+</html>
+CSS 
+.conteudo{
+  display: flex;
+}
+.elemento {
+  opacity: 0;
+  transform: translateX(100px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.elemento.ativo {
+  opacity: 1;
+  transform: translateX(0);
+}
+.elemento_ {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.elemento_.ativo {
+  opacity: 1;
+  transform: translateX(0);
+}
+.imagem{
+  position: relative;
+  right: -5%;
+  box-shadow: 0.1em 0.1em 0.1em;;
+border-radius:7%;
+
+}
+.texto{
+  border-top: 3px solid;
+  font-size: 250%;
+  margin-left: 5%;
+}
+JS
+document.addEventListener("DOMContentLoaded", function() {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('ativo');
+            }
+        });
+    });
+
+    const elementos = document.querySelectorAll('.elemento');
+    elementos.forEach(elemento => observer.observe(elemento));
+});
