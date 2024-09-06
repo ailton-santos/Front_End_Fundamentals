@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Revisão de Conceitos de JavaScript</title>
+</head>
+<body>
+  <h1>Revisão de Conceitos de JavaScript</h1>
+
+  <button onclick="revisaoConceitos()">Clique para revisar conceitos</button>
+  
+  <div id="output" class="result"></div>
+</body>
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}
+
+
+function revisaoConceitos() {
+  let output = document.getElementById("output");
+  let mensagem = "";
+
+  // Variáveis e Tipos
+  let nome = "Ailton";
+  let idade = 30;
+  let isEstudandoJS = true;
+
+  mensagem += `Nome: ${nome}<br>`;
+  mensagem += `Idade: ${idade}<br>`;
+  mensagem += `Estudando JavaScript? ${isEstudandoJS}<br><br>`;
+
+  // Arrays
+  let linguagens = ["JavaScript", "Python", "C#", "Java"];
+  mensagem += "Linguagens favoritas: <br>";
+  linguagens.forEach((linguagem, index) => {
+    mensagem += `${index + 1}. ${linguagem}<br>`;
+  });
+
+  mensagem += "<br>";
+
+  // Loops
+  mensagem += "Números de 1 a 5 usando loop for:<br>";
+  for (let i = 1; i <= 5; i++) {
+    mensagem += `${i} `;
+  }
+
+  mensagem += "<br><br>";
+
+  // Funções
+  function saudacao(nome) {
+    return `Olá, ${nome}! Bem-vindo ao mundo do JavaScript!`;
+  }
+
+  mensagem += saudacao(nome) + "<br><br>";
+
+  // Objetos
+  let pessoa = {
+    nome: "Ailton",
+    idade: 30,
+    profissao: "Engenheiro",
+    saudacao: function() {
+      return `Meu nome é ${this.nome} e eu sou um ${this.profissao}.`;
+    }
+  };
+
+  mensagem += pessoa.saudacao() + "<br>";
+
+  output.innerHTML = mensagem;
+}
