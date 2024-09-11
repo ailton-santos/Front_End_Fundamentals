@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Formulário do Contato</h2>
+        <form id="contactform">
+            <label for="nameinput">Nome:</label>
+            <input type="text" id="nameinput" name="name" required>
+            <label for="emailinput">Email:</label>
+            <input type="email" id="emailinput" name="email" required>
+            <label for="ageinput">Idade:</label>
+            <input type="number" id="ageinput" name="age" required>
+            <label for="messageinput">Mensagem:</label>
+            <textarea id="messageinput" name="message" rows="4" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <div id="submissiondata" style="display:none;">
+            <h3>Dados do envio</h3>
+            <p><span id="submissionname">Nome:</span></p>
+            <p><span id="submissionemail">Email:</span></p>
+            <p><span id="submissionidade">Idade:</span></p>
+            <p><span id="submissionmessage">Mensagem:</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+              body{
+  font-family:verdana,arial;
+  background-color:#f0f0f0;
+}
+.container{
+  max-width:600px;
+  margin:50px auto;
+  padding:20px;
+  background-color:#fff;
+  border-radius:5px;
+  box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+}
+h2{
+  margin-top:0; 
+}
+label{
+  display:block;
+  margin-bottom: 5px;
+}
+input[type="text"],input[type="email"],textarea{
+  width:90%;
+  margin-bottom:10px;
+  border:1px solid #ccc;
+  border-radius:5px;
+  resize:none;
+}
+button {
+  display: block;
+  widht:90%; 
+  padding:10px;
+  background-color: blue;
+  color:#fff;
+  border: none;
+  border-radius: 5px;
+  cursor:pointer;
+ 
+}
+button:hover{
+  background-color:#0056b3;
+}
+#submissiondata{
+  margin-top:20px;
+  
+}
+
+              document.getElementById('contactform').addEventListener('submit', function(event) {
+    event.preventDefault();
+    
+    var name = document.getElementById('nameinput').value;
+    var email = document.getElementById('emailinput').value;
+    var age = document.getElementById('ageinput').value;
+    var message = document.getElementById('messageinput').value;
+
+    // Exibir mensagem
+    document.getElementById('submissionname').textContent = 'Nome: ' + name;
+    document.getElementById('submissionemail').textContent = 'Email: ' + email;
+    document.getElementById('submissionidade').textContent = 'Idade: ' + age;
+    document.getElementById('submissionmessage').textContent = 'Mensagem: ' + message;
+    
+    // Exibindo a área e escondendo o formulário
+    document.getElementById('contactform').style.display = 'none';
+    document.getElementById('submissiondata').style.display = 'block';
+});
