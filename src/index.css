@@ -1,0 +1,75 @@
+body {
+  display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: #f0f0f0;
+font-family: Arial, sans-serif;
+margin: 0;
+}
+@keyframes mudarCor {
+  0% { color: lightgray; }
+  100% { color:black ; }
+}
+
+.movimento {
+  font-size: 2em;
+  animation: mudarCor 2s 
+    infinite;
+}
+
+.game-container {
+text-align: center;
+}
+
+.board {
+display: grid;
+grid-template-columns: repeat(3, 170px);
+grid-template-rows: repeat(3, 170px);
+gap: 5px;
+margin: 20px auto;
+box-shadow: 0.1em 0.1em 0.2em lightgray;
+border: 2px solid;
+
+}
+
+.cell {
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: white;
+font-size: 2em;
+cursor: pointer;
+border: 2px solid #333;
+}
+
+.cell:hover {
+background-color: #8bf787;
+}
+
+button {
+margin-top: 20px;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+background-color: rgb(124, 425, 546);
+color: white;
+border-radius: 10px;}
+
+button:hover{
+  color:green;
+  background-color: white;
+  border: 2px solid green;
+  border-radius: 10px;
+  padding: 11px 21px;
+  }
+
+
+#status {
+margin-top: 10px;
+font-size: 1.2em;
+color: #333;
+}
+
