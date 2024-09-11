@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta name"viewport"; meta charget:"UTF-8"; content="width=device-width", inicial-scale="1.0">
+    <title>pagina com video</title>
+  </head>
+  <body>
+  <div>  
+  <center>
+    <h1 class="color">VÍDEO DE EXEMPLO</h1><iframe width="560" height="315"src="https://www.youtube.com/embed/NPLrDD2TrGs" frameborder:"0" allow="accelerometer;autoplay;clipboard-write;gyroscope;picture-in-picture" allowfullscreen></iframe></div>
+       <div class="container">
+    <h2>O que achou do vídeo?</h2>
+    <form id="myForm">
+      <input type="text" id="nameInput" placeholder="Digite aqui...">
+      <button type="submit">Enviar</button>
+    </form>
+    <div id="greeting"></div>
+  </div>
+  </body>
+</html>
+
+.color{
+  text-shadow: 0.2em 0.1em 0.2em black;
+}
+.container {
+  max-width: 350px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;}
+
+h2 {
+  margin-top: 0;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: red;
+  
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#greeting {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+document.getElementById('myForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+
+  var name = document.getElementById('nameInput').value;
+  var greeting = document.getElementById('greeting');
+  
+  if (name) {
+    greeting.textContent = 'Obrigado pelo seu feedback.';
+  } else {
+    greeting.textContent = 'Por favor, preencha a caixa.';
+  }
+});
